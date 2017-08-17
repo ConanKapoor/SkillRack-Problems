@@ -1,0 +1,44 @@
+Input for the problem:-
+
+Pollutant number - Pollutant_Number.
+Number of grams - Grams_per_mile.
+Odometer reading - Odometer.
+---------------------------------------
+Processing involved:-
+
+Switch iteration used as shown.
+   switch(Pollutant_Number)
+        {
+        case 1: if (Odometer<=50000)
+                    Emission=3.4;
+                else
+                    Emission=1.0;
+                break;
+        case 2: if (Odometer<=50000)
+                    Emission=0.31;
+                else
+                    Emission=0.39;
+                break;
+        case 3: if (Odometer<=50000)
+                    Emission=0.4;
+                else
+                    Emission=1.0;
+                break;
+        case 4: if (Odometer<=50000)
+                    Emission=0.25;
+                else
+                    Emission=0.31;
+                break;
+        }
+------------------------------------------
+Output for the problem:-
+
+Emission exceed permitted level of emission limit  g/mile.
+
+Or
+
+Emission do not exceed permitted level of emission limit  g/mile.
+-------------------------------------------
+Solution alternatives:-
+
+Use of if-else statements in place of switch statement.

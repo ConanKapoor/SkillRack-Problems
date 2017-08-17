@@ -1,0 +1,32 @@
+ALGORITHM:-
+STEP1 - Read Pollutant_number,Grams_per_mile and Odometer.
+STEP2 - Initiate Emission.
+STEP3 - Using switch command for checking conditions.
+               switch(Pollutant_Number)
+                    {
+                    case 1: if (Odometer<=50000)
+                                      Emission=3.4;
+                                 else
+                                      Emission=1.0;
+                                 break;
+                   case 2: if (Odometer<=50000)
+                                      Emission=0.31;
+                               else
+                                      Emission=0.39;
+                               break;
+                   case 3: if (Odometer<=50000)
+                                      Emission=0.4;
+                               else
+                                      Emission=1.0;
+                               break;
+                   case 4: if (Odometer<=50000)
+                                      Emission=0.25;
+                               else
+                                      Emission=0.31;
+                               break;
+                   }
+STEP4 - use if else command to check if Emission is in apt range.
+               if (Grams_Per_Mile>Emission)
+                   printf("Emission exceed permitted level of %f g/mile",Emission);
+              else
+                   printf("Emission do not exceed permitted level of %f g/mile", Emission);
