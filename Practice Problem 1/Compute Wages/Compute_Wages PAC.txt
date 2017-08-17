@@ -1,0 +1,27 @@
+Input for the problem:-
+
+Identification Number - Id_No
+Hourly wage rate- Rate
+Number of Hours worked- Hours
+---------------------------------------
+Processing involved:-
+
+Calculations - 
+    if (Hours>40)
+        Salary=40*Rate;
+        Extra=Salary+(1.5*(Hours-40)*Rate);
+    else
+        Salary=Hours*Rate;
+        Extra=Salary;
+
+    Tax=(3.625/100)*Extra;
+    Final=Extra-Tax;
+    Final=round(Final*100)/100;
+------------------------------------------
+Output for the problem:-
+
+Employee number and net pay separated by a tab.
+-------------------------------------------
+Solution alternatives:-
+
+Doing all calculations inside the if else loop rather than outside it.

@@ -1,0 +1,15 @@
+ALGORITHM:-
+STEP1 - Include math directory.
+STEP2 - Initiate Id_No, Hours, Rate, Salary, Extra, Tax, Final.
+STEP3 - Read Id_No, Rate and Hours.
+STEP4 - using if else statement-
+               if (Hours>40)
+                   Salary=40*Rate;
+                   Extra=Salary+(1.5*(Hours-40)*Rate);
+               else
+                   Salary=Hours*Rate;
+                   Extra=Salary;
+STEP5 - Tax=(3.625/100)*Extra;
+STEP6 - Final=Extra-Tax;
+STEP7 - Final=round(Final*100)/100;
+STEP8 - Print Employee number and net pay separated by a tab.
