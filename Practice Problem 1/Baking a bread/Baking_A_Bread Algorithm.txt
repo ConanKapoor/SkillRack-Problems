@@ -1,0 +1,16 @@
+ALGORITHM:-
+STEP1- Initialize BT,Size and ToB as char and i,j,Total as int.
+STEP2- Take time in seconds in 2D array.
+STEP3- Read inputs.
+STEP4- Applying If-Else code to check conditions-
+              if(BT=='s')
+                 i=1;
+             for(j=0;j<8;j++)
+                  {
+                  Total+=X[i][j];
+                  if(j==4 && ToB=='m')
+                      break;
+                  }
+           if(Size=='d')
+                Total*=1.5;
+STEP5- Print Total.
