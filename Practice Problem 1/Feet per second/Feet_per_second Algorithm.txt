@@ -1,0 +1,13 @@
+ALGORITHM:-
+STEP1 - Include Math directory.
+STEP2 - Initiate mins,secs,time,fps,mps.
+STEP3 - Read mins and secs
+STEP4 - Convert mins to seconds.
+STEP5 - Round millisecs to nearest second.
+STEP6 - Calculate total Time.
+STEP7 - Calculate fps and mps.
+               fps=5280/Time;
+               mps=1609.34/Time;
+STEP8- fps=round(fps*100)/100;
+       mps=round(mps*100)/100;
+STEP9- Print fps,mps.

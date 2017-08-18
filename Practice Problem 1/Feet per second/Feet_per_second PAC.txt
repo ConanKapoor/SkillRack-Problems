@@ -1,0 +1,18 @@
+Input for the problem:-
+
+Minutes taken by the player - mins
+Seconds taken by the player - secs
+---------------------------------------
+Processing involved:-
+
+Time=(mins*60)+(round(secs));fps=5280/Time;
+mps=1609.34/Time;
+------------------------------------------
+Output for the problem:-
+
+1)Speed in feet per second fps.
+2)Speed in meter per second mps.
+-------------------------------------------
+Solution alternatives:-
+
+Rounding values manually without math directory.
