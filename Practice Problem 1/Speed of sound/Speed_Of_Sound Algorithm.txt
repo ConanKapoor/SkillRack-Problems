@@ -1,0 +1,6 @@
+ALGORITHM:-
+STEP1 - Include Math directory.
+STEP2 - Initiate T and a.
+STEP3 - Read Temperature - T.
+STEP4 - Calculate Speed of sound in ft/sec - a.
+STEP5- Print a.
