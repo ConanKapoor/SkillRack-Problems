@@ -1,0 +1,22 @@
+Input for the problem:-
+
+1)Number of tenders - n
+2)Trade registration number of vendor1
+   Address of vendor1
+   Amount quoted in vendor1
+   ...Till n.
+---------------------------------------
+Processing involved:-
+
+~~ Form a class named vendor with 3 private variables and 3 public functions.
+~~Form a get function, in which input registrations, address and price.
+~~ Form a print function, in which print registration and address.
+~~Form a function retprice to return price.
+~~Form findvendor function in which compute an algorithm to find the vendor who won.
+~~In main function, call all 3 functions.
+------------------------------------------
+Output for the problem:-
+
+1)Registration number of vendor who won the tender.
+2)Address of vendor who won the tender.
+-------------------------------------------

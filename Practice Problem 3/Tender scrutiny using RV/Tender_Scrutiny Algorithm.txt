@@ -1,0 +1,27 @@
+ALGORITHM:-
+STEP1 - Form a class named vendor with 3 private variables and 3 public functions.
+STEP2 - Form a get function, in which input registrations, address and price.
+STEP3 - Form a print function, in which print registration and address.
+STEP4 - Form a function retprice to return price.
+STEP5 - Form findvendor function in which compute an algorithm to find the vendor who won.
+void findvendor(vendor &a,vendor arr[20], int number)
+{
+    int i,pos;
+    a=arr[0];
+    for(i=0;i<number-1;i++)
+    {
+            for(int j=i+1;j<number;j++)
+            {
+                if(a.retprice()>arr[j].retprice())
+                {
+                        a=arr[j];
+                }
+            }
+    }
+}
+STEP6 - In main function, Initialize i and number as int.
+STEP7 - Read value of number.
+STEP8 - Initialize vendor candidate,vendorlist[20].
+STEP9 - Read the inputs and save in vendorlist array.
+STEP10 - Call findvendor function.
+STEP11 - Call print function on candidate.
