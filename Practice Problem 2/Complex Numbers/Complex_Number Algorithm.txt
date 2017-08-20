@@ -1,0 +1,13 @@
+ALGORITHM:-
+
+STEP1 - Include Complex library.
+STEP2 - In main function, Intialize and Read R,Im,R1 and Im1.
+STEP3 - Initiate A and B as complex.
+STEP4 - 	A=R+Im*I;
+	        B=R1+Im1*I;
+STEP5 - Call functions in main function.
+               	  double complex x=addition(A,B);
+	          double complex y=subtract(A,B);
+	          double complex z=multiply(A,B);
+STEP6 - Form print commands for +/- inputs.
+STEP7 - Form addition,subtract and multiply functions.

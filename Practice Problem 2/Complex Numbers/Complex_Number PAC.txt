@@ -1,0 +1,31 @@
+Input for the problem:-
+
+Real part of complex number1 - R
+Imaginary part of complex number1- Im
+Real part of complex number2- R1
+Imaginary part of complex number2- Im1
+---------------------------------------
+Processing involved:-
+
+Include complex directory.
+
+Form function for each operation - 
+1) Addition 
+2) Subtraction
+3) Multiplication
+
+And then call them in main functions-
+
+addition(R,R1,Im,Im1);
+subtract(R,R1,Im,Im1);
+multiply(R,R1,Im,Im1);
+------------------------------------------
+Output for the problem:-
+
+Resultant complex number represented as-
+real part +/- imaginary part followed by an 'i'.
+i.e. x+/- ij
+-------------------------------------------
+Solution alternatives:-
+
+Calculations of all operators in the main function only.
