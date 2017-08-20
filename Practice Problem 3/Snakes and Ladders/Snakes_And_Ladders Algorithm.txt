@@ -1,0 +1,10 @@
+ALGORITHM:-
+STEP1 -In read_Values function, read the values of row and column and the number of snakes.
+STEP2 -Take input for the position of snakes.
+STEP3 - Read the number of ladders.
+STEP4 - Take input for the position of snakes.
+STEP5 - Take input for current row/column position of player1.
+STEP6 - Read number of number of dice rolls.
+STEP7 - Take input for the values of dice rolls and save in an array.
+STEP8 - In find_New_Pos function, compute the new position of the layer according to the values of the dice.
+STEP9 - Return the position of player 1.
