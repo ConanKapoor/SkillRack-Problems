@@ -1,0 +1,25 @@
+Input for the problem:-
+
+1)number of items
+2)Itemcode1
+   Cost of item1
+   stock in hand item1
+   ...Till n times.
+3)Item code entered by user
+4)Cost entered by user
+---------------------------------------
+Processing involved:-
+
+~~Form a structure with int price,int id and int quantity.
+~~In main function, Read n and save id, price and quantity in structure.
+~~Read id entered by user.
+~~Read price entered by user.
+~~ Type appropriate try and catch excption codes.
+------------------------------------------
+Output for the problem:-
+
+Print either item name or “Insufficient amount” or “Wrong item code” or “Less Stock”
+-------------------------------------------
+Solution alternatives:-
+
+By using Functions.

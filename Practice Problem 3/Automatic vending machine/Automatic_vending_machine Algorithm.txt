@@ -1,0 +1,11 @@
+ALGORITHM:-
+STEP1 - Form a structure with int price,int id and int quantity.
+STEP2 - In main function, initialize n,i,counter=0 as int.
+STEP3 - Read n.
+STEP4 - if(n>0) initialize shop details[n],choice and input id,pricee and quantity n times into structures.
+STEP5 - Read id and price entered by user.
+STEP6 - Type appropriate try and catch exception codes which involves - 
+               "Wrong item code"
+               "Insufficient amount"
+               "Less stock"
+               "Invalid input"
