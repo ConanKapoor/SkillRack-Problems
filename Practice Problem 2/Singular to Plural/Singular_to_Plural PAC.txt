@@ -1,0 +1,18 @@
+Input for the problem:-
+
+Noun - A String - 'Noun'.
+---------------------------------------
+Processing involved:-
+
+1)Take input.
+2)convert the last digit or last 2 digits to lower case.
+3)Check if noun ends with y,s,ch or sh.
+4)Converting the digits according to rules.
+------------------------------------------
+Output for the problem:-
+
+Plural of the noun.
+-------------------------------------------
+Solution alternatives:-
+
+By using Functions.

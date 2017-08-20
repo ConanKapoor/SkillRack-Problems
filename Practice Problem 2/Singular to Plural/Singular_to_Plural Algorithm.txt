@@ -1,0 +1,22 @@
+ALGORITHM:-
+
+STEP1 - Initialize noun, noun2 and noun3 as char and i,j,length, length1 and length2 as int.
+STEP2 - Read Noun.
+STEP3 - Copy Noun to Noun3.
+STEP4 - Calculate length with the help of strlen function.
+                    length=strlen(noun);
+                    length1=strlen(noun);
+                    length2=strlen(noun3);
+STEP5 - Converting Noun3 to lowercase-
+                 for(i=0;i<length2;i++)
+                     {
+                     noun3[i]=tolower(noun3[i]);
+                     }
+STEP6 - Convert the last or 2nd last digits to lower case.
+                  for(i=0;i<length;++i)
+                        noun[i]=tolower(noun[i]);
+STEP7 - Check the digits according to rules and-
+                   When the given noun ends in “y”, remove the “y” and add “ies”.
+                   When noun ends in “s”, “ch”, or “sh”, add “es”.
+                   For all other cases, just add “s”.
+STEP8 - Print the plural of the noun.
