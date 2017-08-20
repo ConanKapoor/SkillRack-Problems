@@ -1,0 +1,25 @@
+Input for the problem:-
+
+Number of rows - rows
+Number of columns - cols
+Elements in the matrix given row by row.
+---------------------------------------
+Processing involved:-
+
+Check conditions for L shape-
+
+for(i=(rows-1);i>=0;i--)
+        for(j=(cols-2);j>=0;j--)
+            if(board[i][j]==board[i][j+1] && board[i][j]==board[i-1][j])
+                count++;
+
+If count>0 print "Yes" otherwise print "No".
+
+------------------------------------------
+Output for the problem:-
+
+Print Yes or No.
+-------------------------------------------
+Solution alternatives:-
+
+By Using Functions.
