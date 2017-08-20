@@ -1,0 +1,22 @@
+Input for the problem:-
+
+Number of cities  -n
+Name of the cities - name[n]
+Home city name - homecity
+---------------------------------------
+Processing involved:-
+
+~~ Initialize n,i and Routes=1 as int.
+~~ Initialize homecity as string.
+~~ Read the value of n.
+~~ Initialize city array of length n as string.
+~~ Itirate n times and read the name of cities and save in an array and homecity.
+~~ Compute the total number of Routes with the help of suitable algorithm.
+------------------------------------------
+Output for the problem:-
+
+Number of routes.
+-------------------------------------------
+Solution alternatives:-
+
+Use functions.

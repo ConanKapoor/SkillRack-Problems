@@ -1,0 +1,17 @@
+ALGORITHM:-
+STEP1 - Initialize n,i and Routes=1 as int.
+STEP2 - Initialize homecity as string.
+STEP3 - Read the value of n.
+STEP4 - Initialize city array of length n as string.
+STEP5 - Itirate n times and read the name of cities and save in an array.
+             for(i=0;i<n;i++)
+                {
+                cin>>city[i];
+                }
+STEP6 - Read homecity.
+STEP7 - Compute the total number of Routes - 
+               for(i=1;i<n;i++)
+               {
+                     Routes=Routes*i;
+               }
+STEP8 - Print number of routes.
