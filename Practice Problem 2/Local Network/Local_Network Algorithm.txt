@@ -1,0 +1,25 @@
+ALGORITHM:-
+STEP1 - Form a structure-
+                struct computer
+                   {
+                   int xx;
+                   int yy;
+                   int zz;
+                   int mm;
+                   char names[100];
+                   };
+STEP2 - In main function, initialize n,i,k as int.
+STEP3 - Read n.
+STEP4 - struct computer details[n];
+STEP5 - Read IP addresses and names-
+for(i=0;i!=n;i++){
+        char nickname;
+        scanf("%d.%d.%d.%d",&details[i].xx,&details[i].yy,&details[i].zz,&details[i].mm);
+        scanf("%s",&details[i].names);
+}
+STEP6 -Check the first 2 values in IP address and print the machines in same network.-
+              for(i=0;i!=n;i++)
+                   for(k=i+1;k!=n;k++){
+                         if((details[i].xx==details[k].xx) && (details[i].yy==details[k].yy))
+                         printf("Machines %s and %s are on the same local network\n",details[i].names,details[k].names);
+              }
