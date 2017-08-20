@@ -1,0 +1,23 @@
+ALGORITHM:-
+STEP1 - In get function, read number of students.
+STEP2 - Read name of students.
+               for(int i=0;i<num_Of_Ele;i++)
+                     cin>>names[i];
+STEP3 - In print function, print names of students with comma in between.
+               for(int i=0;i<num_Of_Ele;i++)
+                    {
+                     if(i==0)
+                         cout<<names[i];
+                     else
+                         cout<<","<<names[i];
+                     }
+                  cout<<"\n";
+STEP4 - In intersection function, compute an algorithm to find name of students who play chess and carrom.
+STEP5 - initialize set set3;
+STEP6 - Initialie k=0,l,m,j as int.
+STEP7 - Use strcmp to compare 2 names to find out if 1 student plays chess and carom.
+STEP8 - In difference function, compute an algorithm to find name of students who play chess and carrom but not scrabble.
+STEP9 - initialize set set3;
+STEP10 - Initialie k=0,l,m,j as int.
+STEP11 - use strcmp to compare 2 names.
+STEP12 - return set3.

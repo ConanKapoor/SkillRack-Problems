@@ -1,0 +1,29 @@
+Input for the problem:-
+
+1)Number of students who play chess
+2)Name of student1 who plays chess
+   Name of student2 who plays chess
+    ...Name of studentn
+3)Number of students who play scrabble
+4)Name of student1 who plays scrabble
+   Name of student2 who plays scrabble
+   ...Name of studentn
+5)Number of students who play carrom
+6)Name of student1 who plays carrom
+   Name of student2 who plays carrom
+   ...Name of studentn
+---------------------------------------
+Processing involved:-
+
+~~In get function, read number of students.
+~~Read name of students.
+~~In print function, print names of students with comma in between.
+~~In intersection function, compute an algorithm to find name of students who play chess and carrom.
+~~In difference function, compute an algorithm to find name of students who play chess and carrom but not scrabble.
+------------------------------------------
+Output for the problem:-
+
+1)Name of students who play chess and carrom order the names as given in the chess input list separate names by a comma
+
+2)Name of students who play chess and carrom but not scrabble order the names as given in the chess input list separate names by a comma
+-------------------------------------------
