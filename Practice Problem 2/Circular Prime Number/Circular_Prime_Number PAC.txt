@@ -1,0 +1,36 @@
+Input for the problem:-
+
+A number- num.
+---------------------------------------
+Processing involved:-
+
+Changing the digits and checking if the number is prime or not in each iteration:-
+
+for(i=0;i<length;i++)
+        {
+        for(j=0;j<length;j++)
+            {
+            if(j==0)
+                temp=num[j];
+            else if(j==length-1)
+                num[j]=temp;
+            else
+                num[j]=num[j+1];
+            }
+        a=atoi(num);
+        b=a/2;
+        for(k=2;k<b;k++)
+            {
+            if(a%b==0)
+                count=count+1;
+            }
+        }
+------------------------------------------
+Output for the problem:-
+
+Print Circular prime or Not circular prime.
+-------------------------------------------
+Solution alternatives:-
+
+1)Using Functions.
+2)Reading number as int and changing digits by division and remainder method and then checking if number is prime or not in each iteration.

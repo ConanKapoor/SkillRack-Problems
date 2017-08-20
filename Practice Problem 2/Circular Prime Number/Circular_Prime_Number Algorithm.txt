@@ -1,0 +1,32 @@
+ALGORITHM:-
+
+STEP1 - Include string and stdlib.
+STEP2 - initiate num and temp as char.
+STEP3 - Initiate i,j,length,a,b,k and count as int and initialize count=0.
+STEP4 - Read num.
+STEP5 - Calculate length - length=strlen(num);
+STEP6 - Change the digits and check prime or not for each iteration-
+               for(i=0;i<length;i++)
+                   {
+                   for(j=0;j<length;j++)
+                       {
+                       if(j==0)
+                          temp=num[j];
+                       else if(j==length-1)
+                          num[j]=temp;
+                       else
+                         num[j]=num[j+1];
+                      }
+                  a=atoi(num);
+                  b=a/2;
+                  for(k=2;k<b;k++)
+                     {
+                     if(a%b==0)
+                         count=count+1;
+                     }
+        }
+STEP7 - Check condition if count=0
+        if(count==0)
+            printf("Circular prime");
+        else
+            printf("Not circular prime");
