@@ -1,0 +1,17 @@
+ALGORITHM:-
+STEP1 - Include iomanip library for setprecision command.
+STEP2 - Form area function with attribute float length and float breadth and return length*breadth.
+          float area(float length,float breadth)
+          {
+                  return length*breadth;
+          }
+STEP3 - Form area function with attribute float top, float bottom and float height and return height*(top+bottom)/2.
+          float area(float top,float bottom,float height)
+          {
+                 return(height*(top+bottom)/2);
+          }
+STEP4 - Form area function with attribute float radius and return 3.14*radius*radius.
+         float area(float radius)
+         {
+                 return 3.14*radius*radius;
+         }

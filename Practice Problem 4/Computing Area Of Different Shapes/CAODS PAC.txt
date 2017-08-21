@@ -1,0 +1,20 @@
+Input for the problem:-
+
+1)Read the base and height of a rectangle.
+2)Read the top, bottom and height of a trapezoid.
+3)Read the radius of a circle.
+---------------------------------------
+Processing involved:-
+
+- Include iomanip library for setprecision command.
+- Form area function with attribute float length and float breadth and return length*breadth.
+- Form area function with attribute float top, float bottom and float height and return height*(top+bottom)/2.
+- Form area function with attribute float radius and return 3.14*radius*radius.
+------------------------------------------
+Output for the problem:-
+
+Display the area of a rectangle, trapezoid and circle each in one line.
+-------------------------------------------
+Solution alternatives:-
+
+This question can only be completed by the following code.
