@@ -1,0 +1,31 @@
+Input for the problem:-
+
+1) Passenger name
+2) Value of 'x'
+3) Age
+4) Address
+5) Date_of_Journey
+6) Mobile number
+7) Orginal Fare
+---------------------------------------
+Processing involved:-
+
+- Form Boarding_Pass Class in which initialize variables Name, x, Age, address, date, mobile and fare.
+- In public access, initialize friend Discount function with Boarding_Pass &pass as attribute.
+- Form get function to input data and display function to output data.
+- In Discount function, according to respective conditions apply discount.
+- In main function, call get, Discount and display function in following order.
+------------------------------------------
+Output for the problem:-
+
+1) Boarding pass number
+2) Passenger name
+3) Age
+4) Date_of_Journey
+5) Mobile number
+6) Total fare after discount based on age
+-------------------------------------------
+Solution alternatives:-
+
+1)Form display and get functions outside the class.
+2)Form discount function in class only.

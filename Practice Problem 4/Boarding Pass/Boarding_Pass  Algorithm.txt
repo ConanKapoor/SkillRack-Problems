@@ -1,0 +1,13 @@
+ALGORITHM:-
+STEP1 - Form Boarding_Pass Class in which initialize variables Name, x, Age, address, date, mobile and fare.
+STEP2 - In public access, initialize friend Discount function with Boarding_Pass &pass as attribute.
+STEP3 - Form get function to input data.
+STEP4 - Form display function to output data.
+STEP5 - In Discount function, according to respective conditions apply discount.
+               if(pass.age<12)
+                     pass.fare=pass.fare-(pass.fare*0.5);
+               if(pass.age>=12 && pass.age<58)
+                     pass.fare=pass.fare-(pass.fare*0.2);
+               if(pass.age>=58)
+                     pass.fare=pass.fare-(pass.fare*0.4);
+STEP6 - In main function, call get, Discount and display function in following order.
