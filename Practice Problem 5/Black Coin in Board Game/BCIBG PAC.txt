@@ -1,0 +1,30 @@
+Input for the problem:-
+
+1) Weight of black coin.
+2) Current row position of coin.
+3) Current column position of coin.
+4) Number of moves made by black coin.
+---------------------------------------
+Processing involved:-
+
+- Form get function of coin class and read weight, curr_X and curr_Y.
+- Form print function of coin class and print weight.
+- Form get_Curr_X function of coin class and return curr_X.
+- Form get_Curr_Y function of coin class and return curr_Y.
+- Form get_Weight function of coin class and return weight.
+- Form black_Coin function inherited from coin class and initialize no_Of_Moves as
+int under private access and form get() and print() function as void under public access.
+- Form gained_Power() function as bool and if no_Of_Moves>=5, return true, otherwise, return false.
+- Form a move function as void to show all possible moves.
+- Form red_Coin function inherited from coin class and initialize curr_X and curr_Y 
+as int under private access and form print() and set_Curr_Pos_Wt() function as void under public access.
+- Form a move function as void to show all possible moves.
+------------------------------------------
+Output for the problem:-
+
+1) Weight of black coin.
+2) List of possible next positions.
+-------------------------------------------
+Solution alternatives:-
+
+By forming each function out of class.

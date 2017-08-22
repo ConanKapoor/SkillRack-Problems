@@ -1,0 +1,47 @@
+ALGORITHM:-
+STEP1 - Form get function of coin class and read weight, curr_X and curr_Y.
+STEP2 - Form print function of coin class and print weight.
+STEP3 - Form get_Curr_X function of coin class and return curr_X.
+STEP4 - Form get_Curr_Y function of coin class and return curr_Y.
+STEP5 - Form get_Weight function of coin class and return weight.
+STEP6 - Form black_Coin function inherited from coin class and initialize no_Of_Moves as int under private access and form get() and print() function as void under public access-
+                void get()
+                {
+                    coin::get();
+                    cin>>no_Of_Moves;
+                }
+                void print()
+                {
+                    coin::print();
+                }
+STEP7 - Form gained_Power() function as bool and if no_Of_Moves>=5, return true, otherwise, return false.
+STEP8 - Form a move function as void to show all possible moves - 
+                void move()
+                {
+                    cout<<coin::curr_X<<","<<coin::curr_Y+1<<endl;
+                    cout<<coin::curr_X<<","<<coin::curr_Y-1<<endl;
+                }
+STEP9 - Form red_Coin function inherited from coin class and initialize curr_X and curr_Y as int under private access and form print() and set_Curr_Pos_Wt() function as void under public access.
+                void print()
+                {
+                    coin::print();
+                }
+                void set_Curr_Pos_Wt(black_Coin b)
+                {
+                    weight = b.get_Weight();
+                    curr_X = b.get_Curr_X();
+                    curr_Y = b.get_Curr_Y();
+                }
+STEP10 - Form a move function as void to show all possible moves -
+                void move()
+                {
+                    cout<<curr_X-1<<","<<curr_Y<<endl;
+                    cout<<curr_X+1<<","<<curr_Y<<endl;
+                    cout<<curr_X<<","<<curr_Y+1<<endl;
+                    cout<<curr_X<<","<<curr_Y-1<<endl;
+                    cout<<curr_X-1<<","<<curr_Y+1<<endl;
+                    cout<<curr_X+1<<","<<curr_Y+1<<endl;
+                    cout<<curr_X-1<<","<<curr_Y-1<<endl;
+                    cout<<curr_X+1<<","<<curr_Y-1<<endl;
+                }
+
