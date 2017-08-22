@@ -1,0 +1,22 @@
+Input for the problem:-
+
+1)Number of products - n
+2)Name of the product
+3)Product code
+4)Price
+5)Stock in hand
+---------------------------------------
+Processing involved:-
+
+- Form a get function of item class to input data.
+- Form const print function of item class to print prod_name, prod_code, prod_price and stock_In_Hand.
+- Form get_details function of store class and input the number of items and call get function number of items times.
+- Form stock_mgmt function of store_keeper class to print the product names whose stock in hand count is less than 10.
+------------------------------------------
+Output for the problem:-
+
+The product names whose stock in hand count is less than 10.
+-------------------------------------------
+Solution alternatives:-
+
+No alternate solution possible for this question.

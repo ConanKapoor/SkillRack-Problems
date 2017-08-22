@@ -1,0 +1,9 @@
+ALGORITHM:-
+STEP1 - Form a get function of item class to input data.
+STEP2 - Form const print function of item class to print prod_name, prod_code, prod_price and stock_In_Hand.
+STEP3 - Form get_details function of store class and input the number of items and call get function number of items times.
+STEP4 - Form stock_mgmt function of store_keeper class to print the product names whose stock in hand count is less than 10.
+        if(s.items[i].stock_In_Hand<10)
+        {
+            s.items[i].print();
+        }
