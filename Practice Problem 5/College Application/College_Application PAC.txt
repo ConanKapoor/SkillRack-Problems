@@ -1,0 +1,50 @@
+Input for the problem:-
+
+1)Type of application (0 for arts student and 1 for engineering student).
+2)Name of student.
+3)Age.
+4)Marks scored in English.
+5)Marks scored in Second Language.
+6)Marks scored in Maths.
+7)Marks scored in Physics.
+8)Marks scored in Chemistry.
+9)Marks scored in Computer Science.
+10)Marks scored in entrance exam (only for engineering student).
+---------------------------------------
+Processing involved:-
+
+- Form a class student_details in which initiate Name of length 20 as char and Age,English,SecondLanguage,Maths,Physics,Chemistry and ComputerScience as int under protected access specifier.
+
+- In public area, Initialize get() function.
+
+- Form engg_Appln class inherited from student_details class and in private area initiate cut_off as float and entrance_Marks as int.
+
+- In public area initialize get(), Calc_Cutoff() and print() function with return type as void
+
+- Form arts_Appln class inherited from student_details class and in private area initiate cut_off as float.
+
+- In public area initialize get(), Calc_Cutoff() and print() function with return type as void.
+
+- Form student_details::get() function and read Name, Age, English, SecondLanguage, Maths, Physics, chemistry and ComputerScience data.
+
+- Form arts_Appln::get() function to read Name, Age, English, SecondLanguage, Maths, Physics, chemistry and ComputerScience data by just calling student_details::get() function.
+
+- Form engg_Appln::get() function to read Name, Age, English, SecondLanguage, Maths, Physics, chemistry ,ComputerScience and enterance_marks data by just calling student_details::get() function and reading entrance_Marks.
+
+- Form calc_Cutoff of arts_Appln class and compute cut_Off.
+
+- Form calc_Cutoff of engg_Appln class and compute cut_Off.
+
+- Form print function of arts_Appln class and print Name, fixed and cut_off rounded to 2 places by use of setprecision command of iomanip library.
+
+- Form print function of engg_Appln class and print Name, fixed and cut_off rounded to 2 places by use of setprecision command of iomanip library.
+
+------------------------------------------
+Output for the problem:-
+
+1)Name of student.
+2)Cutoff marks.
+-------------------------------------------
+Solution alternatives:-
+
+By forming the function in class only rather than making outside.

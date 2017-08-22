@@ -1,0 +1,49 @@
+ALGORITHM:-
+STEP1 - Form a class student_details in which initiate Name of length 20 as char and Age,English,SecondLanguage,Maths,Physics,Chemistry and ComputerScience as int under protected access specifier.
+STEP2 - In public area, Initialize get() function.
+                class student_details
+                {
+                    protected:
+                        char Name[20];
+                        int Age, English, SecondLanguage, Maths, Physics, Chemistry,                             ComputerScience;
+                    public:
+                        void get();
+                };
+
+STEP3 - Form engg_Appln class inherited from student_details class and in private area initiate cut_off as float and entrance_Marks as int.
+STEP4 - In public area initialize get(), Calc_Cutoff() and print() function with return type as void.
+                class engg_Appln:public student_details
+                {
+                    float cut_off;
+                    int entrance_Marks;
+                    public:
+                        void get();
+                        void calc_Cutoff();
+                        void print();
+                };
+
+STEP5 - Form arts_Appln class inherited from student_details class and in private area initiate cut_off as float.
+STEP6 - In public area initialize get(), Calc_Cutoff() and print() function with return type as void.
+                class arts_Appln:public student_details
+                {
+                    float cut_off;
+                    public:
+                        void get();
+                        void calc_Cutoff();
+                        void print();
+                };
+STEP7 - Form student_details::get() function and read Name, Age, English, SecondLanguage, Maths, Physics, chemistry and ComputerScience data.
+STEP8 - Form arts_Appln::get() function to read Name, Age, English, SecondLanguage, Maths, Physics, chemistry and ComputerScience data by just calling student_details::get() function.
+STEP9 - Form engg_Appln::get() function to read Name, Age, English, SecondLanguage, Maths, Physics, chemistry ,ComputerScience and enterance_marks data by just calling student_details::get() function and reading entrance_Marks.
+STEP10 - Form calc_Cutoff of arts_Appln class and compute cut_Off - 
+            void arts_Appln::calc_Cutoff();
+            {
+                cut_off=((float)English+SecondLanguage+Maths+Physics+Chemistry                         +ComputerScience)/6;
+            }
+STEP11 - Form calc_Cutoff of engg_Appln class and compute cut_Off -
+            void engg_Appln::calc_Cutoff();
+            {
+                cut_off=((((float)Maths+Physics+Chemistry)/3)+entrance_Marks;
+            }
+STEP12 - Form print function of arts_Appln class and print Name, fixed and cut_off rounded to 2 places by use of setprecision command of iomanip library.
+STEP13 - Form print function of engg_Appln class and print Name, fixed and cut_off rounded to 2 places by use of setprecision command of iomanip library.
