@@ -1,0 +1,41 @@
+Input for the problem:-
+
+1)Number of terms in polynomial1
+2)coefficient of term1 of ploynomial1
+   exponent of term1 of ploynomial1
+   ...
+   coefficient of term2 of ploynomial1
+   exponent of term2 of ploynomial1
+   ...
+   coefficient of termn of ploynomial1
+   exponent of termn of ploynomial1
+3)Number of terms in polynomial2
+4)coefficient of term1 of ploynomial2
+   exponent of term1 of ploynomial2
+   ...
+   coefficient of term2 of ploynomial2
+   exponent of term2 of ploynomial2
+   ...
+   coefficient of termn of ploynomial2
+   exponent of termn of ploynomial2
+---------------------------------------
+Processing involved:-
+
+- Form poly() function and initialize num=20 and terms=new term[20].
+- Form poly function with poly& b attribute with num(b.num) as related classes.
+- Form poly function with int i attribute with num(i) as related classes and do terms = new term[i].
+- Form istream& function to input data.
+- Form istream& function to input data related to polynomials.
+- Use delete function to empty the array.
+- Form ostream& function to print data.
+- Form ostream& function to print polynomial coeff and terms.
+- Form operator + function -   
+- Form operator = function - 
+ - Form operator ++ function with int attribute.
+- Form operator ++ function with no attribute.(Function overloading.)
+------------------------------------------
+Output for the problem:-
+
+1)Print the sum of the two polynomial equations.
+2)Call preincrement and print polynomial1
+3)Call postincrement and print polynomial2

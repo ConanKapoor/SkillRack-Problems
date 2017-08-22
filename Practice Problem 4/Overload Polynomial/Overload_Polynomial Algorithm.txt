@@ -1,0 +1,31 @@
+ALGORITHM:-
+STEP1 - Form poly() function and initialize num=20 and terms=new term[20].
+STEP2 - Form poly function with poly& b attribute with num(b.num) as related classes.
+STEP3 - Form poly function with int i attribute with num(i) as related classes and do terms = new term[i].
+STEP4 - Form istream& function to input data.
+STEP5 - Form istream& function to input data related to polynomials.
+STEP6 - Use delete function to empty the array.
+STEP7 - Form ostream& function to print data.
+STEP8 - Form ostream& function to print polynomial coeff and terms.
+STEP9 - Form operator + function - 
+    poly use = terms[0].expo <= (b.terms[0]).expo? *this: b;
+    poly not_use = terms[0].expo <= (b.terms[0]).expo? b: *this;
+    poly c;
+    c.num = not_use.num;
+    for(int q=0; q<use.num; q++){
+        (c.terms[q]).coeff = (use.terms[q]).coeff + (not_use.terms[q]).coeff;
+        (c.terms[q]).expo = (use.terms[q]).expo;
+    }
+    int temp = not_use.num - use.num;
+    for(int q=0; q<temp; q++)
+        c.terms[use.num+q] = not_use.terms[use.num+q];
+    return c;
+STEP10 - Form operator = function - 
+	this->num = b.num;
+	for(int q=0; q<this->num; q++){
+		(this->terms[q]).coeff = (b.terms[q]).coeff;
+		(this->terms[q]).expo = (b.terms[q]).expo;
+	}
+	return *this;
+STEP11 - Form operator ++ function with int attribute.
+STEP12 - Form operator ++ function with no attribute.(Function overloading.)
