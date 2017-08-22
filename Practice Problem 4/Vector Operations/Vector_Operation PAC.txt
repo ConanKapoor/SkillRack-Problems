@@ -1,0 +1,30 @@
+Input for the problem:-
+
+1)Dimension of first vector -  'n1'
+2)First element of first vector
+   Second element of first vector
+   ...
+   n1th element of first vector
+3)Dimension of second vector -  'n2'
+4)First element of second vector
+   Second element of second vector
+   ...
+   n2th element of first vector
+5)value of i
+6)value of j
+---------------------------------------
+Processing involved:-
+
+- In operator[] function, return ele[x-1].
+- In operator+ function, do v3.ele[i]=ele[i]+v2.ele[i].
+- In operator - function, do v3.ele[i]=ele[i]-v2.ele[i].
+- In istream function, take input and save in v.num and iterate through i=0 to i<v.num and do input>>v.ele[i] and return input.
+- In ostream function, iterate through i=0 to i<v.num and do out<<v.ele[i]<<"\n";and return out.
+------------------------------------------
+Output for the problem:-
+
+1) ith element of vector1
+2) jth element of vector2
+3) sum of vectors
+4) vector1-vector2
+-------------------------------------------

@@ -1,0 +1,9 @@
+ALGORITHM:-
+STEP1 - In operator[] function, return ele[x-1].
+STEP2 - In operator+ function, initialize v3 as vector.
+STEP3 - Check if v2.num!=num, if that's the case catch error and print -"Vectors of different dimension cannot be added" and put  v3.num=0.
+STEP4 - Otherwise put v3.num=num and iterate from i=0 to i<num and do v3.ele[i]=ele[i]+v2.ele[i] and return v3.
+STEP5 - In operator - function, initialize v3 as vector.
+STEP6 - Put v3.num=num and iterate from i=0 to i<num and do v3.ele[i]=ele[i]-v2.ele[i] and return v3.
+STEP7 - In istream function, take input and save in v.num and iterate through i=0 to i<v.num and do input>>v.ele[i] and return input.
+STEP8 -  In ostream function, iterate through i=0 to i<v.num and do out<<v.ele[i]<<"\n";and return out.
