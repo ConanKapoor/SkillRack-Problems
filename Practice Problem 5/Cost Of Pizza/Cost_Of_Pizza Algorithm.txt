@@ -1,0 +1,62 @@
+ALGORITHM:-
+STEP1 - Form class pizza inherited from circle and cooked_item - 
+                class pizza: public circle,public cookeditem
+                {
+                    public:
+                        void get_P();
+                };
+STEP2 - Form class veg_Pizza inherited from class pizza - 
+                class veg_Pizza:public pizza
+                {
+                    float Total;
+                    public:
+                        void compute_Cost(kitchen k);
+                        void print_P();
+                };
+STEP3 - Form class chik_Pizza inherited from class pizza - 
+                class chik_Pizza:public pizza
+                {
+                    float Total;
+                    public:
+                        void compute_Cost(kitchen k);
+                        void print_P();
+                };
+STEP4 - Form get_C() to input radius, print_C() to print radius and area() function to calculate area of pizza.
+STEP5 - Form get_K function of kitchen class and input num1 and iterate through i=0 to num1 - 1 and input ingredient name and price of ingredients.
+STEP6 - Form get_Cost function of kitchen class and find the price of an ingredient from it's name -
+                float kitchen::get_Cost(char *g_Cost)
+                {
+                    for(int i=0;i<num1;i++)
+                    {
+                        if (strcmp(ing_Cost[i].name,g_Cost)==0)
+                        {
+                            return ing_Cost[i].price;
+                        }
+                    }
+                }
+STEP7 - Form get_CI function of class cookeditem and input num and iterate through i=0 to num -1 and input input ingredient name and price of ingredients.
+STEP8 - Form print_K function of kitchen class and iterate from i=0 to i=num-1 and print each ingredient's name and price.
+STEP9 - Form print_CI function of cookeditem class and iterate from i=0 to i=num-1 and print each ingredient's name and price.
+STEP10 - Form get_P function of pizza and call get_C() and get_CI() function inside.
+STEP11 - Form compute_Cost function of veg_Pizza class - 
+                void veg_Pizza::compute_Cost(kitchen k)
+                {
+                    Total=0;
+                    for(int i=0;i<num;i++)
+                    {
+                        Total=Total+area()*ing_Qty[i].qty*k.get_Cost(ing_Qty[i].name)/100;
+                    }
+                    Total+=50;
+                }
+STEP12 - Form compute_Cost function of chik_Pizza class - 
+                void chik_Pizza::compute_Cost(kitchen k)
+                {
+                    Total=0;
+                    for(int i=0;i<num;i++)
+                    {
+                        Total=Total+area()*ing_Qty[i].qty*k.get_Cost(ing_Qty[i].name)/100;
+                    }
+                    Total+=100;
+                }
+STEP13 - Form print_P function of veg_Pizza class to print Total.
+STEP14 - Form print_P function of chik_Pizza class to print Total.sss

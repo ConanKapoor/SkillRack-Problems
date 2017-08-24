@@ -1,0 +1,46 @@
+Input for the problem:-
+
+1) Give 0 for veg pizza and 1 for chicken pizza.
+2) Radius of pizza.
+3) Number of ingredients.
+4) Name of ingredient1
+    Quantity of ingredient1 required (in 
+    grams)
+    Name of ingredient2
+    Quantity of ingredient2 required
+    ....
+    Name of ingredientn
+    Quantity of ingredientn required
+5) Number of ingredients in kitchen
+6) Name of ingredient1in kitchen
+    Cost of 100 gm of ingredient1 in kitchen
+    Name of ingredient2 in kitchen
+    Cost of 100 gm of ingredient2 in kitchen
+    ....
+    Name of ingredientn in kitchen
+    Cost of 100 gm of ingredientn in kitchen
+---------------------------------------
+Processing involved:-
+
+- Form class pizza inherited from circle and cooked_item.
+- Form class veg_Pizza inherited from class pizza.
+- Form class chik_Pizza inherited from class pizza.
+- Form get_C() to input radius, print_C() to print radius and area() function to calculate area of pizza.
+- Form get_K function of kitchen class and input num1 and iterate through i=0 to num1 - 1 and input ingredient name and price of ingredients.
+- Form get_Cost function of kitchen class and find the price of an ingredient from it's name.
+- Form get_CI function of class cookeditem and input num and iterate through i=0 to num -1 and input input ingredient name and price of ingredients.
+- Form print_K function of kitchen class and iterate from i=0 to i=num-1 and print each ingredient's name and price.
+- Form print_CI function of cookeditem class and iterate from i=0 to i=num-1 and print each ingredient's name and price.
+- Form get_P function of pizza and call get_C() and get_CI() function inside.
+- Form compute_Cost function of veg_Pizza class  to find total cost of pizza.
+- Form compute_Cost function of chik_Pizza class to find total cost of pizza. 
+- Form print_P function of veg_Pizza class to print Total.
+- Form print_P function of chik_Pizza class to print Total.
+------------------------------------------
+Output for the problem:-
+
+Cost of pizza - Total.
+-------------------------------------------
+Solution alternatives:-
+
+By forming the functions inside class only.
