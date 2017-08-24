@@ -1,0 +1,47 @@
+ALGORITHM:-
+STEP1 - Form get function of learning_Material class and read isbn, title, author and year.
+STEP2 - Form print function of learing_Material class and print isbn and title.
+STEP3 - Form class book inherited from learning_Material under public access.
+STEP4 - Initialize No_Of_Pages as int in private area and initiate price as int and form get(), calc_Price() and print() function as void in public area.
+                class book:public learning_Material
+                {
+                    int No_of_Pages;
+                    public:
+                        int price;
+                        void get()
+                        {
+                            learning_Material::get();
+                            cin>>No_of_Pages;
+                        }
+                        void calc_Price()
+                        {
+                            price=No_of_Pages*1;
+                        }
+                        void print()
+                        {
+                            learning_Material::print();
+			    cout<<price;
+                        }
+                };
+STEP4 - Form class CD inherited from learning_Material under public access.
+STEP5 - Initialize Duration as int in private area and initiate price as int and form get(), calc_Price() and print() function as void in public area.
+                class CD:public learning_Material
+                {
+                    int Duration;
+                    public:
+                        int price;
+                        void get()
+                        {
+                            learning_Material::get();
+                            cin>>Duration;
+                        }
+                        void calc_Price()
+                        {
+                            price=Duration*2;
+                        }
+                        void print()
+                        {
+                            learning_Material::print();
+                            cout<<price;
+                        }
+                };

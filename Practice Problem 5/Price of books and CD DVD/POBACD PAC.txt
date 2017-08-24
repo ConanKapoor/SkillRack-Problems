@@ -1,0 +1,27 @@
+Input for the problem:-
+
+1) Type of learning material (0 for book and 1 for CD).
+2) ISBN number.
+3) Title.
+4) Author.
+5) Year of publication.
+6) Number of pages if book and number of minutes if CD.
+---------------------------------------
+Processing involved:-
+
+- Form get function of learning_Material class and read isbn, title, author and year.
+- Form print function of learing_Material class and print isbn and title.
+- Form class book inherited from learning_Material under public access.
+- Initialize No_Of_Pages as int in private area and initiate price as int and form get(), calc_Price() and print() function as void in public area.
+- Form class CD inherited from learning_Material under public access.
+- Initialize Duration as int in private area and initiate price as int and form get(), calc_Price() and print() function as void in public area.
+------------------------------------------
+Output for the problem:-
+
+1) ISBN number of book or CD.
+2) Title of book or CD.
+3) Cost of book or CD.
+-------------------------------------------
+Solution alternatives:-
+
+By forming each function of both Book and CD class outside the class.
