@@ -1,0 +1,32 @@
+Input for the problem:-
+
+1) Type of customer (0 for ordinary customer and 1 for preferred customer).
+2) Name.
+3) Mobile number.
+4) Address.
+5) Customer id.
+6) Number of bills.
+7) Total Cost of products in bill1
+    ....
+    Total Cost of products in billn
+---------------------------------------
+Processing involved:-
+
+- Form a class Customer_Details with Name[20], Mobile_no[15] and Address[50] as char under protected access and a get function as void in public access to read Name, Mobile_no and Address of customer.
+
+- Form a class customer inherited from Customer_Details in which initiate
+Customer_Id[20] as char and no_Of_Bills and Cost[30] as int under private access. 
+
+- Form a get and calc_Total function under public access in which read the inputs and calculate the total according to given information.
+
+- Form a class preferred_Customer inherited from Customer_Details in which initiate Customer_Id[20] as char and no_Of_Bills and Cost[30] as int under private access.
+
+- Form a get and calc_Total function under public access in which read the inputs and calculate the total according to given information.
+------------------------------------------
+Output for the problem:-
+
+Total amount to be paid by the customer for 'n' bills - Total.
+-------------------------------------------
+Solution alternatives:-
+
+Form each function outside classes.
