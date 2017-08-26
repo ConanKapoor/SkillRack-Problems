@@ -1,0 +1,54 @@
+ALGORITHM:-
+STEP1 - Form a get function to input id, name, a_Name and price.
+STEP2 - Form template<class T, class S>
+STEP3 - Form count function to count the elements in the collection in which initialize c=0 and count=0 as int. Then while c< and check if *data==search then do count++.
+                template<class T,class S>
+                int count(T *data,int size,S search)
+                {
+                        int c=0,count=0;
+                        while(c < size)
+                        {
+                            if(*data==search)
+                            {
+                                count=count+1;
+                            }
+                            data++;
+                            c=c+1;
+                        }
+                        cout<<count;
+                }
+STEP4 - Form a operator function for string s and check if name==s, return 1 otherwise return 0.
+STEP5 - In main function, initialize num, choice, number and i as int.
+STEP6 - Read choice.
+STEP8 - If choice==1, read num and initialize detail of length num as int.
+STEP9 - Iterate i from 0 to num, read details.
+STEP10 - Read number and call function count(detail, num, number).
+STEP11 - Continue the same for choice==2 and choice==3.
+STEP12 - If choice==2, - 
+		Read num
+		IINITIALIZE detail[num],c,character
+		FOR LOOP (i=0;i<num;++i)
+		{
+			READ c
+			detail[i]=c
+		}
+		READ character
+		CALL count(detail,num,character)
+STEP13 - if choice==3, -
+		READ num;.
+		MAKE OBJECT book bb[num];
+		INITIALIZE stringg[50];
+		INITIALIZE i,c=0;
+		FOR LOOP(i=0;i<num;++i)
+		{
+                         bb[i].get()
+                }
+		READ stringg
+		FOR LOOP (i=0;i<num;++i)
+		{
+                    CHECK IF (bb[i].operator==(stringg))
+                     {
+                           DO  c=c+1;
+                     }
+		}
+		PRINT c;

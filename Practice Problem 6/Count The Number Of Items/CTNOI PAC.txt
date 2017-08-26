@@ -1,0 +1,32 @@
+Input for the problem:-
+
+1) Choice of type of input (0- int, 1 – char, 2- book).
+2) First line will contain the number of elements ‘n’.
+3) The next ‘n’ lines will contain the details of each element.
+4) If the elements are of type book then the order of details are:
+     book id, 
+     book name, 
+     author name 
+     and cost
+5) Element to be searched
+---------------------------------------
+Processing involved:-
+
+- Form a get function to input id, name, a_Name and price.
+- Form template<class T, class S>.
+- Form count function to count the elements in the collection.
+- Form a operator function for string s.
+- In main function, Read choice.
+- If choice==1, read num and initialize detail of length num as int.
+- Iterate i from 0 to num, read details.
+- Read number and call function count(detail, num, number).
+- Continue the same for choice==2 and choice==3.
+------------------------------------------
+Output for the problem:-
+
+Count of elements in the collection.
+-------------------------------------------
+Solution alternatives:-
+
+- Form a choice function outside rather than making it in main function.
+- Use if/else in place of switch statement.
