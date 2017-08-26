@@ -1,0 +1,15 @@
+ALGORITHM:-
+STEP1 - Form negException function for the exception handling and print "Negaive".
+STEP2 - Form moreException function for the exception handling and print "Positive".
+STEP3 - Form get function to read data and initialize i as int and read rollno and name.
+STEP4 - Iterate through i=0 to 5 and read marks. Check if marks[i]<0, if so, throw negException and if marks[i]>100, throw moreException. At end print Help.
+STEP5 - Form print function to print rollno, name and grade.
+STEP6 - Form function calc_Avg function and initialize Total=0 as float and i as int. Iterate through i=0 to 5 and calculate total - Total=Total+marks[i]
+STEP7 - Calculate average by dividing total by 5.
+STEP8 - Form find_grade function and form a if-else ladder to check for grade in respective range.
+STEP9 - In main function, in try, form object stud of class student and call get,calc_Avg, find_Grade and print function.
+STEP10 - catch negException and moreException.
+    CATCH (negException n)
+        CALL n.error_Msg()
+    CATCH(moreException m)
+       CALL  m.error_Msg();

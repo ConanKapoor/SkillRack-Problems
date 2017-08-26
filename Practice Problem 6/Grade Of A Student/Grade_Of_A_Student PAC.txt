@@ -1,0 +1,34 @@
+Input for the problem:-
+
+1) Roll number of the student.
+2) Name of the student.
+3) Mark secured by student in subject1.
+    Mark secured by student in subject2
+    Mark secured by student in subject3
+    Mark secured by student in subject4
+    Mark secured by student in subject5
+---------------------------------------
+Processing involved:-
+
+- Form negException function for the exception handling and print "Negaive".
+- Form moreException function for the exception handling and print "Positive".
+- Form get function to read data and initialize i as int and read rollno and name.
+- Iterate through i=0 to 5 and read marks. Check if marks[i]<0, if so, throw 
+negException and if marks[i]>100, throw moreException.
+- Form print function to print rollno, name and grade.
+- Form function calc_Avg function  to calculate average of a student.
+- Form find_grade function and form a if-else ladder to check for grade in 
+respective range.
+- In main function, in try, form object stud of class student and call get,calc_Avg,
+find_Grade and print function.
+- catch negException and moreException.
+------------------------------------------
+Output for the problem:-
+
+1) Roll number of the student.
+2) Name of the student.
+3) Grade secured by student.
+-------------------------------------------
+Solution alternatives:-
+
+No Alternative Solution is possible for this problem.
