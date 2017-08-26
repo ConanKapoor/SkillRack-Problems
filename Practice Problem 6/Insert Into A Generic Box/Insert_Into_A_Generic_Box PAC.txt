@@ -1,0 +1,33 @@
+Input for the problem:-
+
+1) Choice for type of element (1 for int and 2 for string data)
+
+2) Choice for operation in generic box
+(1- check empty, 2 – is full, 3 – Insert through first entry point, 4 - Insert through last entry point, 5 - Insert through mid entry point6 – Delete through first entry point, 7 - Delete through last entry point, 8 - Delete through mid entry point, 9 -Print, 10 - Exit)
+
+3) For insert options 3, 4 and 5
+
+4) Element to be inserted
+---------------------------------------
+Processing involved:-
+
+- Form template for class and form a function g_Box to initiate a generic Box. 
+- Form template for class and form isEmpty function and check if first==-1 and mid==-1 and last==-1, return true, otherwise return false.
+- Form template for class and form isFull function and check if mid==20 and last==20, return true, otherwise return false.
+- Form template for class and form insert_First function to insert data from front of the box.
+-  Form template for class and form insert_mid function to insert data from mid of the box.
+- Form template for class and form insert_last function to insert data from last of the box.
+- Form template for class and form delete_First function to delete data from front of box.
+- Form template for class and form delete_mid function to delete data from mid of box.
+- Form template for class and form delete_last function to delete data from last of box.
+- Form template for class and form print function to print data from the box.
+------------------------------------------
+Output for the problem:-
+
+1) For options 1 and 2 print 'Empty' or 'Not empty', 'Full' or 'Not full' appropriately
+
+2) Print elements in the box when print is given
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution for this problem as variables and functions are already defined in the code area.

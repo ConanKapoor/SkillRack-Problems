@@ -1,0 +1,158 @@
+#include<iostream>
+#include <exception>
+using namespace std;
+#include<string>
+template<class T>
+class g_Box
+{
+    int first,mid,last;
+    //initially number of elements is 0
+    // increment for each insert and
+    // decrement for each delete
+    int no_Of_Ele;
+    //represents maximum number of elements
+    // that can be stored
+    int capacity;
+    T *ele;
+    public:
+    // allocate memory to store elements and
+    // initialize all members
+    // let the maximum capacity be 20
+    g_Box();
+    // parameterised constructor
+    // with maximum capacity as parameter
+    g_Box(int);
+    bool isEmpty();
+    bool isFull();
+    void insert_First(T);
+    void insert_Last(T);
+    void insert_Mid(T);
+    void delete_First();
+    void delete_Last();
+    void delete_Mid();
+    void print();
+};
+
+int main()
+{
+    int d_Choice;
+    cin>>d_Choice;   
+    g_Box<int> g;
+    int data;
+    g_Box<string> g1;
+    string data1;
+    if(d_Choice == 1)
+    {
+    while(1)
+    {  
+    int opt_Choice;
+    cin>>opt_Choice;
+    if(opt_Choice==1)
+    {
+    if(g.isEmpty())
+    cout<<"Empty"<<endl;
+    else
+    cout<<"Not empty"<<endl;
+    }
+    else if(opt_Choice==2)
+    {
+    if(g.isFull())
+    cout<<"Full"<<endl;
+    else
+    cout<<"Not full"<<endl;
+    }
+    else if(opt_Choice==3)
+    {
+    cin>>data;
+    g.insert_First(data);
+    }
+    else if(opt_Choice==4)
+    {
+    cin>>data;
+    g.insert_Last(data);
+    }
+    else if(opt_Choice==5)
+    {
+    cin>>data;
+    g.insert_Mid(data);
+    }
+    else if(opt_Choice==6)
+    {
+    g.delete_First();
+    }
+    else if(opt_Choice==7)
+    {
+    g.delete_Last();
+    }
+    else if(opt_Choice==8)
+    {
+    g.delete_Mid();
+    }
+    else if(opt_Choice==9)
+    {
+    g.print();
+    }
+    else if(opt_Choice==10)
+    {
+        break;
+    }  
+    }
+    }
+    if(d_Choice == 2)
+    {
+    while(1)
+    {  
+    int opt_Choice;
+    cin>>opt_Choice;
+    if(opt_Choice==1)
+    {
+    if(g1.isEmpty())
+    cout<<"Empty"<<endl;
+    else
+    cout<<"Not empty"<<endl;
+    }
+    else if(opt_Choice==2)
+    {
+    if(g1.isFull())
+    cout<<"Full"<<endl;
+    else
+    cout<<"Not full"<<endl;
+    }
+    else if(opt_Choice==3)
+    {
+    cin>>data1;
+    g1.insert_First(data1);
+    }
+    else if(opt_Choice==4)
+    {
+    cin>>data1;
+    g1.insert_Last(data1);
+    }
+    else if(opt_Choice==5)
+    {
+    cin>>data1;
+    g1.insert_Mid(data1);
+    }
+    else if(opt_Choice==6)
+    {
+    g1.delete_First();
+    }
+    else if(opt_Choice==7)
+    {
+    g1.delete_Last();
+    }
+    else if(opt_Choice==8)
+    {
+    g1.delete_Mid();
+    }
+    else if(opt_Choice==9)
+    {
+    g1.print();
+    }
+    else if(opt_Choice==10)
+    {
+        break;
+    }  
+    }
+    }
+}

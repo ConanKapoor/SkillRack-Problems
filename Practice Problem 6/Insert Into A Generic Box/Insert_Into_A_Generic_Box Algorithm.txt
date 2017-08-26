@@ -1,0 +1,23 @@
+ALGORITHM:-
+STEP1 - Form template for class and form a function g_Box to initiate a generic Box. Inside the function, initiate first=-1, mid=-1, last= -1, no_Of_Ele=0 and capacity=20. Also dynamically allocate memory for ele of length 'capacity'.
+STEP2 - Form template for class and form isEmpty function and check if first==-1 and mid==-1 and last==-1, return true, otherwise return false.
+STEP3 - Form template for class and form isFull function and check if mid==20 and last==20, return true, otherwise return false.
+STEP4 - Form template for class and form insert_First function to insert data from front of the box. In the function, call isEmpty and if it's true implement following - 
+                   DO first++
+                   DO last++
+                   DO mid=(first+last)/2
+                   DO ele[first]=data
+STEP5 - Otherwise, do last++ and mid=(first+last)/2. Iterate through i=last-1 and k=last to i>=0 and do - ele[i+1] = ele[i]. At last do - ele[first] = data.
+STEP6 -  Form template for class and form insert_mid function to insert data from mid of the box. In the function, call isFull and if it's false, do mid=(first+last)/2. Iterate through i=last and k=last+1 to i>=mid and do - ele[k]=ele[i]. Also do - 
+                  DO ele[mid]=data
+                  DO last++
+                  DO mid=(first+last)/2
+STEP7 - Form template for class and form insert_last function to insert data from last of the box. In the function, call isFull and if it's false, do last++, ele[last]=data and mid=(first+last)/2.
+STEP8 - Form template for class and form delete_First function to delete data from front of box.  In the function, call isEmpty and if it's true, return nothing.
+STEP9 - Iterate through i=1 and k=0 to i<=last and do ele[k]=ele[i]. Also do last-- and first--.
+STEP10 - Form template for class and form delete_mid function to delete data from mid of box.  In the function, call isEmpty and if it's true, return nothing.
+STEP11 - Iterate through i=mid and k=mid+1 to i<last and do ele[k]=ele[i]. Also do last-- and mid=(first+last)/2.
+STEP12 - Form template for class and form delete_last function to delete data from last of box. In the function, call isEmpty and if it's true, return nothing.
+STEP13 - DO last-- and mid=(first+last)/2.
+STEP14 - Form template for class and form print function to print data from the box. In function call isEmpty function and check if it's false, iterate through i=0 to i<=last and print ele[i].
+STEP15 - Otherwise, print "Box Empty".
