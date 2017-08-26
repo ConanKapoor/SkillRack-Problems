@@ -1,0 +1,50 @@
+Input for the problem:-
+
+1) Choice for type of element (1 for int and 2 for string data)
+
+2) Choice for operation in tree
+(1- check empty, 2 – is full, 3 – Insert, 4 - Find left child, 5 - 4 - Find right child
+6 – find parent, 7 - Exit
+
+)
+
+3) For insert options 3
+
+4) Element to be inserted
+
+
+---------------------------------------
+Processing involved:-
+
+- Form a template for class and form BinaryTree function to initiate a binary tree by dynamically allocating the data. 
+
+- Form a template for class and form isEmpty function to check if the tree is empty or not.
+
+- Form a template for class and form isFull function to check if the tree is full or not.
+
+- Form a template for class and form insert function with attribute data of T type. In the function, call isFull function and check if the tree is full, if so, print "Tree full insertion cannot be done". Otherwise add the data in the tree.
+
+- Form a template for class and form rightChild function to return the right child from the position given. 
+
+- Otherwise, print "No right child" and change ERR_flag as true.
+Form a template for class and form leftChild function to return the left child from the position given.
+
+- Otherwise, print "No left child" and change ERR_flag=true.
+
+- Form a template for class and form a parent function to return the parent node of the tree.
+------------------------------------------
+Output for the problem:-
+
+
+
+For options 1 and 2 print 'Empty' or 'Not empty', 'Full' or 'Not full' appropriately.
+
+
+
+Print value of leftchild / rightchild / parent when option is chosen and print 'No left child' or 'No right child' when applicable
+
+
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution for this problem as variables and functions are already defined in the code area.

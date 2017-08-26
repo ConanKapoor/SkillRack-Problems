@@ -1,0 +1,45 @@
+
+
+ALGORITHM:-
+STEP1 - Form a template for class and form BinaryTree function to initiate a binary tree by dynamically allocating the data. In the function do - no_Of_Ele=0, ele=new T[20] and capacity=20.
+
+STEP2 - Form a template for class and form isEmpty function and check if no_Of_Ele = 0, if so return 1, otherwise return 0.
+
+STEP3 - Form a template for class and form isFull function and check if no_Of_Ele = 20, if so return 1, otherwise return 0.
+
+STEP4 - Form a template for class and form insert function with attribute data of T type. In the function, call isFull function and check if the tree is full, if so, print "Tree full insertion cannot be done".
+
+STEP5 - Otherwise, do - *ele=data, ele++ and no_Of_Ele++.
+
+STEP6 - Form a template for class and form rightChild function to return the right child from the position given. In the function, do - T*n and check -
+	               
+		CHECK IF((2*pos+2)<no_Of_Ele)
+                   DO  n=ele-no_Of_Ele
+
+                   DO  n=n+2*pos+2
+		   RETURN *n
+
+STEP7 - Otherwise, print "No right child" and do ERR_flag=true.
+STEP8 - Form a template for class and form leftChild function to return the left child from the position given. In the function, do - T*n and check -
+                     
+		CHECK IF((2*pos+1)<no_Of_Ele) 
+                           
+		   DO n=ele-no_Of_Ele
+ 
+                   DO n=n+2*pos+1
+                       
+                   RETURN *n
+
+STEP9 - Otherwise, print "No left child" and do ERR_flag=true.
+STEP10 - Form a template for class and form a parent function to return the parent node of the tree. In the function, do
+ -
+                   DO T*n
+
+                   DO no_Of_Ele
+ 
+                   DO n=ele-no_Of_Ele
+            
+                   DO n=n+pos/2
+                       
+                   RETURN *n
+

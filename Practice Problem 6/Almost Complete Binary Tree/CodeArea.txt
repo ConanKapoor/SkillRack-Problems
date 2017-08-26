@@ -1,0 +1,154 @@
+#include<iostream>
+#include <exception>
+using namespace std;
+#include<string>
+#include<stdlib.h>
+bool ERR_Flag=false;
+template<class T>
+//Set this global error flag to true when there is no
+//left/right child for a given node
+ 
+class AC_BinaryTree
+{
+    int no_Of_Ele;
+    T *ele;
+    int capacity;
+    public:
+    //allocate memory to store elements and
+    //initialize data members
+    //capacity = 20
+    AC_BinaryTree();
+    bool isEmpty();
+    bool isFull();
+    //Function to insert data in the ACBinaryTree
+    //Insertion can be done only at the last
+    // that is if there are 'n' elements in the tree
+    // new element can be inserted only in position 'n+1'
+    //Check if the tree is full and insert if not so
+    //If tree is full then print "Tree full insertion cannot be made"
+    void insert(T);
+    //leftChild of a node in postion pos
+    //If there is no leftChild for the node
+    // then print "No left child"
+    T leftChild(int pos);
+    //rightChild of a node in postion pos
+    //If there is no rightChild for the node
+    // then print "No right child"
+    T rightChild(int pos);
+    //Parent of a node in position pos
+    T parent(int pos);
+};
+int main()
+{
+    int d_Choice,pos;
+    cin>>d_Choice;   
+    int val;
+    string val1;
+    AC_BinaryTree<int> g;
+    int data;
+    AC_BinaryTree<string> g1;
+    string data1;
+    if(d_Choice == 1)
+    {
+    while(1)
+    {  
+    int opt_Choice;
+    cin>>opt_Choice;
+    if(opt_Choice==1)
+    {
+    if(g.isEmpty())
+    cout<<"Empty"<<endl;
+    else
+    cout<<"Not empty"<<endl;
+    }
+    else if(opt_Choice==2)
+    {
+    if(g.isFull())
+    cout<<"Full"<<endl;
+    else
+    cout<<"Not full"<<endl;
+    }
+    else if(opt_Choice==3)
+    {
+    cin>>data;
+    g.insert(data);
+    }
+    else if(opt_Choice==4)
+    {
+    cin>>pos;
+    val = g.leftChild(pos);
+    if(!ERR_Flag)
+    cout<<val<<endl;
+    }
+    else if(opt_Choice==5)
+    {
+    cin>>pos;
+    val = g.rightChild(pos);
+    if(!ERR_Flag)
+    cout<<val<<endl;
+    }
+    else if(opt_Choice==6)
+    {
+    cin>>pos;
+    val = g.parent(pos);
+    cout<<val<<endl;
+    }
+     
+    else if(opt_Choice==7)
+    {
+        exit(1);
+    }  
+    }
+    }
+    if(d_Choice == 2)
+    {
+    while(1)
+    {  
+    int opt_Choice;
+    cin>>opt_Choice;
+    if(opt_Choice==1)
+    {
+    if(g1.isEmpty())
+    cout<<"Empty"<<endl;
+    else
+    cout<<"Not empty"<<endl;
+    }
+    else if(opt_Choice==2)
+    {
+    if(g1.isFull())
+    cout<<"Full"<<endl;
+    else
+    cout<<"Not full"<<endl;
+    }
+    else if(opt_Choice==3)
+    {
+    cin>>data1;
+    g1.insert(data1);
+    }
+    else if(opt_Choice==4)
+    {
+    cin>>pos;
+    val1 = g1.leftChild(pos);
+    if(!ERR_Flag)
+    cout<<val1<<endl;
+    }
+    else if(opt_Choice==5)
+    {
+    cin>>pos;
+    val1 = g1.rightChild(pos);
+    if(!ERR_Flag)
+    cout<<val1<<endl;
+    }
+    else if(opt_Choice==6)
+    {
+    cin>>pos;
+    val1 = g1.parent(pos);
+    cout<<val1<<endl;
+    }  
+    else if(opt_Choice==7)
+    {
+        exit(1);
+    }  
+    }
+    }
+}
