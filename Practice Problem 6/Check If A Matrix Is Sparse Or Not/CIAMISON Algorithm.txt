@@ -1,0 +1,18 @@
+ALGORITHM:-
+STEP1 - Form a template and form a get function to read row and col and the elements of the matrix.
+STEP2 - Form a template and form check_Sparse function to find how many elements have 0 and how many does not and compare them for checking if matrix is sparse. In the function initialize count=0, flag=0 ,i and j as int.
+STEP3 - Iterate through i=0 to i<row and j=0 to col and implement following IF-ELSE statement -
+			CHECK IF ele[i][j]==0
+				count=count+1
+			ELSE
+				flag=flag+1
+STEP4 - If count>flag, return 1, otherwise, return 0.
+STEP5 - Form a template and form add function of matrix type to compute addition of two matrices. Initialize i and j as int and form object m3 of matrix.
+STEP6 - Check if row!=m.row and col!=m.col, throw mismatchDimension exception.
+STEP7 - Otherwise, iterate through i=0 to i<row and j=0 to j<col and do following - 
+				m3.ele[i][j]=m.ele[i][j]+ele[i][j]
+				m3.row=row
+				m3.col=col
+              And return m3.
+STEP8 - Form template an form a print function to print elements of the computed matrix. Initialize i,j as int.
+STEP9 - Iterate through i=0 to i<row and j=0 to j<col and print each element.

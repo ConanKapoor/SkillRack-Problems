@@ -1,0 +1,38 @@
+Input for the problem:-
+
+1) Number of rows in matrix1
+2) Number of columns in matrix1
+3) Element1 in matrix1
+    Element2 in matrix1
+    ...
+    Elementn in matrix1
+4) Number of rows in matrix2
+5) Number of columns in matrix2
+6) Element1 in matrix2
+    Element2 in matrix2
+   ...
+   Elementn in matrix2
+---------------------------------------
+Processing involved:-
+
+- Form a template and form a get function to read row and col and the elements of the matrix.
+- Form a template and form check_Sparse function to find how many elements have 0 and how many does not and compare them for checking if matrix is sparse.
+- Form a template and form add function of matrix type to compute addition of two matrices. 
+- Check if row!=m.row and col!=m.col, throw mismatchDimension exception.
+- Otherwise, continue with addition.
+- Form template an form a print function to print elements of the computed matrix.
+------------------------------------------
+Output for the problem:-
+
+Print elements of resultant matrix or Dimension of matrices do not match if exception is caught
+
+1) Element1 in resultant matrix
+    Element2 in resultant matrix
+    ...
+    Elementn in resultant matrix
+
+2) Matrix is sparse or Matrix is not sparse
+-------------------------------------------
+Solution alternatives:-
+
+There is no alternative solution for this problem as functions are already defined in the code area.
