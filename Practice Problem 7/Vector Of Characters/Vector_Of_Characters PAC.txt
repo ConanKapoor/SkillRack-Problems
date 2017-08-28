@@ -1,0 +1,20 @@
+Input for the problem:-
+
+1) String to be stored in vector1.
+2) String to be stored in vector2.
+---------------------------------------
+Processing involved:-
+
+- Form function initializeVector of class charVector to input the read string in vector. 
+- Form dupVector of class charVector to double the string add in single vector.
+- Form dupRevVector of class charVector to double and reverse the string and add in single vector.
+- Form print function of class charVector to print the dupVector and dupRevVector.
+------------------------------------------
+Output for the problem:-
+
+1) Print duplicateVector of vector1.
+2) Print duplicateRevVector of vector2.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution for this problem as variables and functions are already defined in the code area.

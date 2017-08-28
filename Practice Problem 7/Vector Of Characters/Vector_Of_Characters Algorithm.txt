@@ -1,0 +1,8 @@
+ALGORITHM:- 
+STEP1 - Form function initializeVector of class charVector to input the read string in vector. In the function, iterate throughi=0 to i<s.size() and pushback s[i] into cv.
+STEP2 - Form dupVector of class charVector to double the string and to add in single vector. In the function, initialize s=cv.size() as int.
+STEP3 - Iterate through i=0 to i<s and push back cv[i] into cv.
+STEP4 - Form dupRevVector of class charVector to double and reverse the string and add in single vector. In the function, initialize s=cv.size() as int.
+STEP5 - Iterate through i=0 to i<s and push back cv[s-i-1] into cv.
+STEP6 - Form print function of class charVector to print the dupVector and dupRevVector.
+STEP8 - In the function, iterate through i=0 to i<cv.size() and print cv[i].
