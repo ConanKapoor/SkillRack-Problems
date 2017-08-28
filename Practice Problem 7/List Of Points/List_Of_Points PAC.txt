@@ -1,0 +1,30 @@
+Input for the problem:-
+
+1) Number of points, 'n'
+2) Name of tower1
+    X-axis of tower1
+    Y-axis of tower1
+    ...
+    Name of towern
+    X-axis of towern
+    Y-axis of towern
+3) Name of mobile
+4) X-axis of mobile phone
+5) Y-axis of mobile phone
+---------------------------------------
+Processing involved:-
+
+- Form get function of point class and read name, x and y.
+- Form print function of point class and print name.
+- Form distance function of point class to calculate the distance.
+- Form get function of mobile class to input data.
+- Form compare function to compare 2 points. In the function return p1.dist(mob)<p2.dist(mob).
+- Form find_Min function of class mobile to find the minimum distance between mobile and nearest tower.
+------------------------------------------
+Output for the problem:-
+
+Name of the tower to which the phone has to be connected.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution for this problem as variables and functions are already defined in the code area.

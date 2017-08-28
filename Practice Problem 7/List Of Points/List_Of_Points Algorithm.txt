@@ -1,0 +1,9 @@
+ALGORITHM:-
+STEP1 - Form get function of point class and read name, x and y.
+STEP2 - Form print function of point class and print name.
+STEP3 - Form distance function of point class to calculate the distance.In function, return sqrt((this->x-p.x)*(this->x-p.x)+(this->y-p.y)*(this->y-p.y)).
+STEP4 - Form get function of mobile class to input data. In the function, read num_Tower_Pts.
+STEP5 - Form object temp of point class. Iterate i=0 to i<num_Tower_Pts and call temp.get function and push back temp in tower_Pts list.
+STEP6 - Call mobile_Pt.get function and set mob=mobile_Pt.
+STEP7 - Form compare function to compare 2 points. In the function return p1.dist(mob)<p2.dist(mob).
+STEP8 - Form find_Min function of class mobile and call tower_Pts.sort(compare) and return tower_Pts.front().

@@ -1,0 +1,32 @@
+#include <iostream>
+#include <vector>
+#include<math.h>
+#include<list>
+using namespace std;
+class point
+{
+    char name[30];
+    float x;
+    float y;
+    public:
+    void get();
+    void print();
+    float dist(point p);
+};
+class mobile
+{
+    int num_Tower_Pts;
+    list<point> tower_Pts;
+    point mobile_Pt;
+    public:
+    void get();
+    point find_Min();
+};
+-------------------
+-------------------
+int main()
+{
+    mobile m;
+    m.get();
+    (m.find_Min()).print();
+}
