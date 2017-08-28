@@ -1,0 +1,11 @@
+ALGORITHM:-
+STEP1 - Include vector header file for vector use.
+STEP2 - Initiate n,i,j and count=0 as int.
+STEP3 - Read n.
+STEP4 - Initiate 2D vectors and name them as Matrix and Matrix2.
+                vector<vector<int> >Matrix(n,vector<int>(n))
+                vector<vector<int> >Matrix2(n,vector<int>(n))
+STEP5 - Iterate through i=0 to i<n and j=0 to j<n, input Matrix elements.
+STEP6 - Iterate through i=0 to i<n and j=0 to j<n, and check if Matrix2[i][j]=Matrix[j][i] to do transpose of matrix.
+STEP7 - Iterate through i=0 to i<n and j=0 to j<n, and check if Matrix[i][j]==Matrix2[i][j],i.e. if elements are equal or not. If so, do count++.
+STEP8 - Check if count == n*n, print "Symmetric", Otherwise print "Not symmetric".

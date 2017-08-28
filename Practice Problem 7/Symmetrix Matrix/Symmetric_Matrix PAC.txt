@@ -1,0 +1,35 @@
+Input for the problem:-
+
+1) Dimension of matrix, 'n'.
+2) Element in row1 col1
+    Element in row1 col2
+    ...
+    Element in row1 coln
+    Element in row2 col1
+    Element in row2 col2
+    ...
+    Element in row2 coln
+    ...
+    ...
+    Element in rown col1
+    Element in rown col2
+    ...
+    Element in rown coln
+---------------------------------------
+Processing involved:-
+
+- Include vector header file for vector use.
+- Read n.
+- Initiate 2D vectors and name them as Matrix and Matrix2.
+- Iterate through i=0 to i<n and j=0 to j<n, input Matrix elements.
+- Iterate through i=0 to i<n and j=0 to j<n, and check if Matrix2[i][j]=Matrix[j][i] to do transpose of matrix.
+- Iterate through i=0 to i<n and j=0 to j<n, and check if Matrix[i][j]==Matrix2[i][j],i.e. if elements are equal or not. If so, do count++.
+- Check if count == n*n, print "Symmetric", Otherwise print "Not symmetric".
+------------------------------------------
+Output for the problem:-
+
+Print Symmetric or Not symmetric.
+-------------------------------------------
+Solution alternatives:-
+
+A function can be made to check if matrix is symmetric or not outside the main.
