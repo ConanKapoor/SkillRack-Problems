@@ -1,0 +1,20 @@
+ALGORITHM:-
+STEP1 - Form a template class and form queue function of queue class to insert data in the queue. In the function, initialize front=0, rear=-1, capacity = 20 and dynamically allocate data in ele.
+STEP2 - Form a template class and form isempty function to check if queue is empty.In function, return rear<front.
+STEP3 - Form a template class and form isfull function to check if queue is full.In function, return capacity<rear-front+1.
+STEP4 - Form a template class and form enqueue function to enqueue data in the queue. In the function do - *(ele+rear-front+1)=data and return *(ele+ rear++ +1)==data.
+STEP5 - Form a template class and form dequeue function to dequeue from the queue. In the function, check if rear<front, if so, do ERR_FLAG=true. Otherwise, return *(ele+front++).
+STEP6 - Form a template class and form destructor function of queue.
+STEP7 - Form a template class and form print function to print the queue. In the function, check if rear<front, print "Queue is empty". Otherwise iterate through i=front to i<=rear and print *(ele+i).
+STEP8 - Form a template class and form push_Back function of deque class (to insert data in the queue from back) and return this->enqueue(data).
+STEP9 - Form a template class and form push_Front function of deque class (to insert data in the queue from front). In the function, perform these - 
+                SET T*A =new T[20];
+                SET *A=data;
+                FOR LOOP i=this->front to i<=this->rear
+                    DO *(A+i+1)=*(this->ele+i);
+                SET this->ele=A;
+                SET this->front=0;
+                SET this->rear++;
+                RETURN this->rear<=20;
+STEP10 - Form a template class and form pop_Front function to pop an element from front. In the function, return this->dequeue().
+STEP11 - Form a template class and form pop_Back function to pop an element from back. In the function, check if this->rear<this->front, if so, set ERR_FLAG=true. Otherwise return *(this->ele+this->rear--).

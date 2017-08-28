@@ -1,0 +1,34 @@
+Input for the problem:-
+
+1) Choice of queue and data type (1 – integer linear queue, 2 – String deque)
+
+2) Choice of operation
+For queue – 1 – isempty, 2 – isfull, 3 – enqueue, 4 – dequeue, 5 – Print content of queue, 6 - exit
+
+3) for enqueue option 3, element to be inserted will follow the choice
+
+For deque – 1 – isempty, 2 – isfull, 3 – push_back, 4 – push_front, 5 – pop_back, 6 – pop_front 7 – Print content of deque, 8 - exit
+
+4) for both the push options 3 and 4, element to be inserted will follow the choice
+---------------------------------------
+Processing involved:-
+
+- Form a template class and form queue function of queue class to insert data in the queue. 
+- Form a template class and form isempty function to check if queue is empty.
+- Form a template class and form isfull function to check if queue is full.
+- Form a template class and form enqueue function to enqueue data in the queue.
+- Form a template class and form dequeue function to dequeue from the queue.
+- Form a template class and form destructor function of queue.
+- Form a template class and form print function to print the queue.
+- Form a template class and form push_Back function of deque class to insert data in the queue from back.
+- Form a template class and form push_Front function of deque class to insert data in the queue from front.
+- Form a template class and form pop_Front function to pop an element from front. 
+- Form a template class and form pop_Back function to pop an element from back.
+------------------------------------------
+Output for the problem:-
+
+Print the content of queue after each operation, print elements from first to last.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution for this problem as variables and functions are already defined in the code area.
