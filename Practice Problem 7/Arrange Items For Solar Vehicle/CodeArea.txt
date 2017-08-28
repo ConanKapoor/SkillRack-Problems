@@ -1,0 +1,42 @@
+#include <iostream>
+#include<map>
+#include <vector>
+#include <algorithm>
+using namespace std;
+class bag
+{
+    char name[30];
+    int num_Of_Items;
+    float item_Wt[20];
+    float item_Count[20];  
+    public:
+    void get();
+    //print only name of bag
+    void print();
+    //Compute weight from details given
+    float compute();
+};
+bool wayToSort(int i, int j);
+class solar
+{
+    map<float,bag> m1;
+    vector<float> v;
+    int num_Bags;
+    public:
+    //get details of bags and insert into map and vector
+    // In map, key - weight and value - details of bag
+    // In vector, weight of bags
+    void get();
+    void sort_Vec();
+    //print name of bags in sorted order
+    void print_In_Order();
+};
+-----------------
+-----------------
+int main()
+{
+    solar s;
+    s.get();
+    s.sort_Vec();
+    s.print_In_Order();
+}
