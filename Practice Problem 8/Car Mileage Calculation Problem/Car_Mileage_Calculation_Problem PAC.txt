@@ -1,0 +1,33 @@
+Input for the problem:-
+
+1) Name of the file
+2) Input file contains  
+    car number, miles driven and gallons  separated by a tab of car1 in line1
+car number, miles driven and gallons separated by a tab of car2 in line2
+....
+car number, miles driven and gallons separated by a tab of carn in linen
+---------------------------------------
+Processing involved:-
+
+- Read Name_of_File.
+- Initialize File as fstream.
+- Open the File.
+- While File.eof is false, input car number, miles_driven and gallons.
+- Calculate average by formula - Average=miles_driven/gallons.
+- Calculate Total_Miles, Total _average and Total gallons by taking sum.
+- Print Car number, miles_driven,gallons and Average for each iteration.
+- Print Total_Miles,Total_Gallons,Total_Avg and Total_Avg.
+------------------------------------------
+Output for the problem:-
+
+1)car number, miles driven, gallons and mileage of car1 separated by tab
+car number, miles driven, gallons and mileage of car2 separated by tab
+...
+car number, miles driven, gallons and mileage of carn separated by tab
+2) Total miles driven
+3) total gallons used
+4) average miles per gallon for all the cars
+-------------------------------------------
+Solution alternatives:-
+
+By making a calculate function separately to do calculations.

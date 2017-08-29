@@ -1,0 +1,11 @@
+ALGORITHM:-
+STEP1 - Initialize car number as int and a character array Name_of_File of length 100.
+STEP2 - Read Name_of_File.
+STEP3 - Initialize miles_driven, gallons, Total_Miles=0, Total_Gallons=0, Average, Total_Avg=0 as float.
+STEP4 - Initialize File as fstream.
+STEP5 - Open the File.
+STEP6 - While File.eof is false, input car number, miles_driven and gallons.
+STEP7 - Calculate average by formula - Average=miles_driven/gallons.
+STEP8 - Calculate Total_Miles, Total _average and Total gallons by taking sum.
+STEP9 - Print Car number, miles_driven,gallons and Average.
+STEP10 - Print Total_Miles,Total_Gallons,Total_Avg and Total_Avg.
