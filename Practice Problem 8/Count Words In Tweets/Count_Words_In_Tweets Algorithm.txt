@@ -1,0 +1,10 @@
+ALGORITHM:-
+STEP1 - Include fstream header.
+STEP2 - In main function, initialize word as string.
+STEP3 - Read word.
+STEP4 - Initialize Tweets as string and File as ifstream.
+STEP5 - Open the file - tweets.txt with the help of following command - 
+                                           File.open("tweets.txt")
+STEP6 - Initialize count=0 as int.
+STEP7 - While File.eof() is false, do - File>>Tweets. Check if word is equal to tweets, if so, do count++.
+STEP8 - Print count.
