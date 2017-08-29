@@ -1,0 +1,12 @@
+ALGORITHM:-
+STEP1 - Include header files - vector, fstream and algorithm.
+STEP2 - In main function, Initialize file_name array of length 100 as char.
+STEP3 - Read file_name.
+STEP4 - Initialize File as fstream.
+STEP5 - Open the file by following this syntax - 
+                                          File.open(file_name,ios::in)
+STEP6 - Initialize a vector V.
+STEP7 - While File.eof() is False, initialize data as int. Add data in File.
+STEP8 - Pushback the data in the vector.
+STEP9 - Call sort function on V.begin and V.end.
+STEP10 - Iterate through i=0 to i<V.size() and print V[i].

@@ -1,0 +1,23 @@
+Input for the problem:-
+
+1) File name
+2) In input file, a set of numbers to be sorted each number is separated by a space.
+---------------------------------------
+Processing involved:-
+
+- In main function, Read file_name.
+- Initialize File as fstream.
+- Open the file.
+- Initialize a vector V.
+- While File.eof() is False, add data in File.
+- Pushback the data in the vector.
+- Call sort function on V.begin and V.end.
+- Print sorted order of numbers.
+------------------------------------------
+Output for the problem:-
+
+Numbers in sorted order one number in one line.
+-------------------------------------------
+Solution alternatives:-
+
+List can be used in place of vector.
