@@ -1,0 +1,13 @@
+ALGORITHM:-
+STEP1 - Include fstream header file.
+STEP2 - Initialize File as fstream.
+STEP3 - Initialize character array name_of_file of length 20 and input the name.
+STEP4 - Open the file with the following command - 
+                                    File.open(name_of_file,ios::in)
+STEP5 - Initialize length and length2.
+STEP6 - While File.eof is false initialize a=0,b,c=0,d as int.
+STEP7 - Read the length of 1st message.
+STEP8 - Iterate through i=0 to i<length and do File>>b and a=10*a+b.
+STEP9 - Read the length of 2nd message.
+STEP10 - Iterate through i=0 to i<length and do File>>d and c=10*c+b.
+STEP11 - Check if a==c, print "Message transmitted ok", otherwise "Message transmitted not ok.

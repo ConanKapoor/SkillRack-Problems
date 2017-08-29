@@ -1,0 +1,23 @@
+Input for the problem:-
+
+1) Name of the file.
+2) Input file contains a number of secret codes immediately followed their copy.
+---------------------------------------
+Processing involved:-
+
+- Initialize File as fstream.
+- Read the file name.
+- Open the file.
+- While File.eof is false ,Read the length of 1st message.
+- Combine the digits of first message.
+- Read the length of 2nd message.
+- Combine the digits of second message.
+- Check if both message are equal, print "Message transmitted ok", otherwise "Message transmitted not ok.
+------------------------------------------
+Output for the problem:-
+
+Print either Message transmitted is ok or Message transmitted is not ok.
+-------------------------------------------
+Solution alternatives:-
+
+By comparing each digit.
