@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <fstream>
+using namespace std;
+class employee
+{
+    string lastName;
+    string firstName;
+    double salary;
+    float inc;
+    double updated_Salary;
+    public:
+    //Read lastname firstname salary and inc
+    void get(ifstream&);
+    //Print lastname firstname updated salary
+    void print();
+    //update salary
+    void update_Sal();
+};

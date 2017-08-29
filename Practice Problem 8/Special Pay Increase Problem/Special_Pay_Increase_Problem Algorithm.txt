@@ -1,0 +1,11 @@
+ALGORITHM:-
+STEP1 - Form get function of employee class to read data. In the function, input lastName, firstName, salary, inc.
+STEP2 - Form print function of employee class to print data. In the function, print lastName, firstName and salary.
+STEP3 - Form update_Sal function of employee class to update salary of an employee. In the function, do - salary+=(inc/100)*salary.
+STEP4 - In main function, Initialize character array Name_of_File of length 20.
+STEP5 - Read Name_of_File.
+STEP6 - Initialize File of ifstream.
+STEP7 - Open the file by the following command - 
+                                              File.open(Name_of_File,ios::in)
+STEP8 - Make emp object of employee class.
+STEP9 - While File.eof is false, call emp.get(File), emp.update_Sal and emp.print.

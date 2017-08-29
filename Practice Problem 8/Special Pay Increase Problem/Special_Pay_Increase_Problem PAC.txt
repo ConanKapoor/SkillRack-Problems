@@ -1,0 +1,32 @@
+Input for the problem:-
+
+1) Name of the input file
+2) The input file contains
+     last name, first name, salary and 
+     percentage of increase for employee1
+     last name, first name, salary and 
+     percentage of increase for employee2
+     ...
+     last name, first name, salary and  
+     percentage of increase for employee n.
+---------------------------------------
+Processing involved:-
+
+- Form get function of employee class to read data. In the function, input lastName, firstName, salary, inc.
+- Form print function of employee class to print data. In the function, print lastName, firstName and salary.
+- Form update_Sal function of employee class to update salary of an employee. In the function, do - salary+=(inc/100)*salary.
+- In main function, Read Name_of_File.
+- Initialize File of ifstream.
+- Open the file.
+- Make emp object of employee class.
+- While File.eof is false, call emp.get(File), emp.update_Sal and emp.print.
+------------------------------------------
+Output for the problem:-
+
+~~last name, first name, updadated salary of employee1 separated by a tab
+~~last name, first name, updadated salary of employee2 separated by a tab
+~~last name, first name, updadated salary of employee3 separated by a tab
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution for this problem as variables and functions are already defined in the code area.
