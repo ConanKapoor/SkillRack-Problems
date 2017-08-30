@@ -1,0 +1,8 @@
+ALGORITHM:-
+STEP1 - Initialize n,i and m as int.
+STEP2 - Read n.
+STEP3 - Initialize 2 arrays of length n as int.
+STEP4 - Read elements and store in array1.
+STEP5 - Read m.
+STEP6 - Iterate through i=0 to n and do array2[i]=array1[(n-m+i)%n].
+STEP7 - Print array2.

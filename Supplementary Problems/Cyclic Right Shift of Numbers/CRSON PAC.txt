@@ -1,0 +1,21 @@
+Input for the problem:-
+
+1) Number of elements in 'n' - n
+2) Elements
+---------------------------------------
+Processing involved:-
+
+~~ Read n.
+~~ Initialize 2 arrays of length n as int.
+~~ Read elements and store in array1.
+~~ Read m.
+~~ Iterate through i=0 to n and do array2[i]=array1[(n-m+i)%n].
+~~ Print array2.
+------------------------------------------
+Output for the problem:-
+
+Elements in the set after right shift by 'm' places.
+-------------------------------------------
+Solution alternatives:-
+
+Use Function.
