@@ -1,0 +1,8 @@
+ALGORITHM:-
+STEP1 - Initialize n,i,j and c=0 as int.
+STEP2 - Read n.
+STEP3 - Initialize an array of dimension nxn as int.
+STEP4 - Read the elements of the matrix.
+STEP5 - Iterate through i and j and if i is not equal to j and if array[i][j]==array[j][i] - do c=c+1.
+STEP6 - If c==((n*n)-n), print Symmetric.
+STEP7 - Else print Not Symmetric.

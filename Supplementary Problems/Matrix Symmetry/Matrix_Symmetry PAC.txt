@@ -1,0 +1,20 @@
+Input for the problem:-
+
+1) Value of 'n' - n
+2) Elements of matrix.
+---------------------------------------
+Processing involved:-
+
+~~Read n.
+~~Initialize an array of dimension nxn as int.
+~~Read the elements of the matrix.
+~~ Iterate through i and j and if i is not equal to j and if array[i][j]==array[j][i] - do c=c+1.
+~~If c==((n*n)-n), print Symmetric, otherwise Not Symmetric.
+------------------------------------------
+Output for the problem:-
+
+Print Symmetric or Not symmetric.
+-------------------------------------------
+Solution alternatives:-
+
+Use function.
