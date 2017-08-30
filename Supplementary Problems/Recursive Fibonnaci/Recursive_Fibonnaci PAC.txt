@@ -1,0 +1,19 @@
+Input for the problem:-
+
+Value of 'n' - n
+---------------------------------------
+Processing involved:-
+
+~~Read the value of n.
+~~ Iterate from 1 to n and call the Fibonacci function and print the value.
+~~ In Fibonacci function, if n==0 return 0.
+~~ if n==1, return 1.
+~~ Otherwise return (Fibonacci(n-1)+Fibonacci(n-2)).
+------------------------------------------
+Output for the problem:-
+
+Fibonacci series of 'n' terms each term separated by a space.
+-------------------------------------------
+Solution alternatives:-
+
+In Fibonacci function do sum outside the if-else condition.

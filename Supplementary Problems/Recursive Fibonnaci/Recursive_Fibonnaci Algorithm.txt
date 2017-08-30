@@ -1,0 +1,7 @@
+ALGORITHM:-
+STEP1 - Initialize n,i and j=0 as int.
+STEP2 - Read the value of n.
+STEP3 - Iterate from 1 to n and call the Fibonacci function and print the value.
+STEP4 -  In Fibonacci function, if n==0 return 0.
+STEP5 - Else if n==1, return 1.
+STEP6 - Otherwise return (Fibonacci(n-1)+Fibonacci(n-2)).
