@@ -1,0 +1,8 @@
+ALGORITHM:-
+STEP1 - Initiate string with length of 30 as char.
+STEP2 - Read string.
+STEP3 - Initiate counter=0,i=0 as int.
+STEP4 - Calculate length of string with the help of strlen function and save in int n.
+STEP5 - while string[i]!='\0' and if string[i]!=string[n-i-1], do counter+=1 and break the loop.
+STEP6 - do i++.
+STEP7 - if counter==0, print Palindrome otherwise print Not palindrome.

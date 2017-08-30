@@ -1,0 +1,19 @@
+Input for the problem:-
+
+A word - string.
+---------------------------------------
+Processing involved:-
+
+~~ Read string..
+~~ Initiate counter=0,i=0 as int.
+~~ Calculate length of string with the help of strlen function and save in int n.
+~~ while string[i]!='\0' and if string[i]!=string[n-i-1], do counter+=1 and break the loop.
+~~ if ccounter==0, print Palindrome otherwise print Not palindrome.
+------------------------------------------
+Output for the problem:-
+
+Print Palindrome or Not palindrome.
+-------------------------------------------
+Solution alternatives:-
+
+Use function.
