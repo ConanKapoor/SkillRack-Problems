@@ -1,0 +1,7 @@
+ALGORITHM:-
+STEP1 - Initialize n,i,j,a=0,b=0 as int.
+STEP2 - Read n.
+STEP3 - Initialize an array of length n as int.
+STEP4 - Read the elements and save in array.
+STEP5 - Check each element if it's bigger than the other after a certain number and print the leader.
+STEP6 - Otherwise print No leader.

@@ -1,0 +1,20 @@
+Input for the problem:-
+
+1) Number of elements in 'n' - n
+2) Elements.
+---------------------------------------
+Processing involved:-
+
+~~ Read n.
+~~ Initialize an array of length n as int.
+~~ Read the elements and save in array.
+~~ Check each element if it's bigger than the other after a certain number and print the leader.
+~~ Otherwise print No leader.
+------------------------------------------
+Output for the problem:-
+
+Elements that are leaders and print No leaders when there is no leader at all in the test case.
+-------------------------------------------
+Solution alternatives:-
+
+Use functions.
