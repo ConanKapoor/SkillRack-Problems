@@ -1,0 +1,17 @@
+Input for the problem:-
+
+A string - string.
+---------------------------------------
+Processing involved:-
+
+~~ Read the string.
+~~ Find the size of the string using strlen function under string library.
+~~ call the reverse function with following input - reverse(string,0,size-1).
+~~ Print the string.
+~~ In reverse function, take the character on that index in a temporary variable and put at size - index.
+~~ Pass reverse(string,index+1,size) for next recursive.
+------------------------------------------
+Output for the problem:-
+
+Reverse of the string.
+-------------------------------------------

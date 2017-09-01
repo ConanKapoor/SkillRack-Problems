@@ -1,0 +1,13 @@
+ALGORITHM:-
+STEP1 - Initiate a string of length 20 as char.
+STEP2 - Initiate size as int.
+STEP3 - Read string.
+STEP4 - Find size of string using strlen function and save in string array.
+STEP5 - Call the reverse function with following input - reverse(string,0,size-1).
+STEP6 - Print the string.
+STEP7 - In reverse function, take the character on that index in a temporary 
+               variable and put at size - index.
+               temporary=string[index];
+               string[index]=string[size-index];
+               string[size-index]=temporary;
+STEP8 - Pass reverse(string,index+1,size) for next recursive.
