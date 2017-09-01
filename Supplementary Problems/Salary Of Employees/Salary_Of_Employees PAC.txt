@@ -1,0 +1,34 @@
+Input for the problem:-
+
+1) Value of 'n' - n.
+2) For n inputs - 
+    Employee name of employee n.
+    Employee id of employee n.
+    Basic pay of employee n.
+    Percentage of DA of employee n.
+    HRA of employee n.
+---------------------------------------
+Processing involved:-
+
+~~ Form a structure with name_of_emp as char, ID as int, HRA,DA,Basic as float.
+~~ In main function, initiate i and n as int.
+~~ Initialize salary=0 as float.
+~~ Read n.
+~~ make an array of length n - employee emp[n].
+~~ Iterate i from 0 to n, Read name_of_emp, ID, Basic, HRA and DA.
+~~Iterate i from 0 to n, and print emp ID and salary where                   salary=emp[i].Basic*(1+emp[i].HRA/100)+emp[i].DA
+------------------------------------------
+Output for the problem:-
+
+Employee id of employee1
+Total salary of employee1
+...
+Employee id of employee2
+Total salary of employee2
+...
+Employee id of employeen
+Total salary of employeen
+-------------------------------------------
+Solution alternatives:-
+
+Use functions.

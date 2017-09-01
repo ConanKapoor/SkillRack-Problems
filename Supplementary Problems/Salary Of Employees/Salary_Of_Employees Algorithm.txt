@@ -1,0 +1,8 @@
+ALGORITHM:-
+STEP1 - Form a structure with name_of_emp as char, ID as int, HRA,DA,Basic as float.
+STEP2 - In main function, initiate i and n as int.
+STEP3 - Initialize salary=0 as float.
+STEP4 - Read n.
+STEP5 - make an array of length n - employee emp[n].
+STEP6 - Iterate i from 0 to n, Read name_of_emp, ID, Basic, HRA and DA.
+STEP7 - Iterate i from 0 to n, and print emp ID and salary where                   salary=emp[i].Basic*(1+emp[i].HRA/100)+emp[i].DA
