@@ -1,0 +1,23 @@
+Input for the problem:-
+
+1) Number of elements - n
+2) Elements.
+---------------------------------------
+Processing involved:-
+
+~~ Read n.
+~~ Initialize an array of size n as int.
+~~ Read the elements and save in an array.
+~~ Do min=max=array[0] and mina=maxa=0
+~~ Find the minimum and maximum element.
+~~Do array[mina]=array[maxa] and 
+               answer=array[0]
+~~Find the second smallest element and print it.
+------------------------------------------
+Output for the problem:-
+
+Second smallest element in the set.
+-------------------------------------------
+Solution alternatives:-
+
+Use functions.

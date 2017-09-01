@@ -1,0 +1,30 @@
+ALGORITHM:-
+STEP1 - initialize n,i,min,max,answer,mina and maxa as int.
+STEP2 - Read n.
+STEP3 - Initialize an array of size n as int.
+STEP4 - Read the elements and save in an array.
+STEP5 - Do min=max=array[0];
+                    mina=maxa=0;
+STEP6 - To find the minimum and maximum element - 
+for(i=1;i<n;i++)
+    {
+        if(array[i]<min)
+        {
+            min=array[i];
+            mina=i;
+        }
+        else if(array[i]>max)
+        {
+            max=array[i];
+            maxa=i;
+        }
+    }
+STEP7 - Do array[mina]=array[maxa];
+               answer=array[0];
+STEP8 - Iterate through i=1 to n-1 and find second smallest.
+for(i=1;i<n;i++)
+    {
+        if(array[i]<answer)
+            answer=array[i];
+    }
+STEP9 - print array.
