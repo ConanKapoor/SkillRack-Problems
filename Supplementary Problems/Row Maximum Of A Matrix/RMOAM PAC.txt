@@ -1,0 +1,21 @@
+Input for the problem:-
+
+1)Value of 'n' - n
+2) Elements of matrix.
+---------------------------------------
+Processing involved:-
+
+~~ Read n.
+~~ Initialize a 2D array of dimension nxn as int.
+~~ Read the elements of the matrix and save in the 2D array.
+~~ Iterate i=0 to n and initialize max=array[i][0].
+~~ Inside the for loop iterate j=1 to n and if max<array[i][j] put max=array[i][j].
+~~ Print the maximum element of each row.
+------------------------------------------
+Output for the problem:-
+
+Maximum value in each row.
+-------------------------------------------
+Solution alternatives:-
+
+Use function to find the maximum element of each row.

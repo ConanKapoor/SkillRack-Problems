@@ -1,0 +1,8 @@
+ALGORITHM:-
+STEP1 - Initialize n,i,j and max as int.
+STEP2 - Read n.
+STEP3 - Initialize a 2D array of dimension nxn as int.
+STEP4 - Read the elements of the matrix and save in the 2D array.
+STEP5 - Iterate i=0 to n and initialize max=array[i][0].
+STEP6 - Inside the for loop iterate j=1 to n and if max<array[i][j] put max=array[i][j].
+STEP7 - print the maximum element of each row.
