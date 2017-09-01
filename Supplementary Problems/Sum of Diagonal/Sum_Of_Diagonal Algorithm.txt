@@ -1,0 +1,17 @@
+ALGORITHM:-
+STEP1 - Initialize n,i,j and sum=0 as int.
+STEP2 - Read the value of n.
+STEP3 - Initialize a 2D array of nxn dimension.
+STEP4 - Read the elements of the matrix.
+STEP5 - Iterate through i and j till n and if i=j add the value of that element to the sum. 
+               for(i=0;i<n;i++)
+               {
+                     for(j=0;j<n;j++)
+                     {
+                          if(i==j)
+                          {
+                                sum=sum + array[i][j];
+                          }
+                     } 
+               }
+STEP6 - Print the sum.

@@ -1,0 +1,20 @@
+Input for the problem:-
+
+1) Value of 'n' - n
+2)Element of the matrix.
+---------------------------------------
+Processing involved:-
+
+~~ Read the dimensions of the square matrix.
+~~ Initiate a 2D array as int with size nxn.
+~~ Read the elements of the matrix.
+~~ Iterate through i and j till n and if i=j add the value of that element to the sum.
+~~ Print the sum. 
+------------------------------------------
+Output for the problem:-
+
+Sum of diagonal elements.
+-------------------------------------------
+Solution alternatives:-
+
+Use recursive function.
