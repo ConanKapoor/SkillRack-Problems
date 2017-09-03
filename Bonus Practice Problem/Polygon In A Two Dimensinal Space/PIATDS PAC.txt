@@ -1,0 +1,37 @@
+Input for the problem:-
+
+1) Next six entries are Vertices of a triangle
+2) value of X- coordinate of point1
+    value of Y- coordinate of point1
+    ....
+    value of X- coordinate of point6
+    value of Y- coordinate of point6
+3) Next eight entries are Vertices of a triangle
+4) value of X- coordinate of point1
+    value of Y- coordinate of point1
+    ....
+    value of X- coordinate of point8
+    value of Y- coordinate of point8
+5) Index in polygon to print
+---------------------------------------
+Processing involved:-
+
+- Form point function to initialize x and y as 0.
+- Form get function of point class to get x and y coodinates.
+- Overload << operator.
+- Form what function of outofrange class to print "Out of range".
+- Form polygon function to initialize polygon.
+- Form destructor of polygon function. In the function, do delete(vertices).
+- Form get function of polygon class to read vertices. 
+- Overload [] operator.
+- Form area function of polygon class to compute area. 
+------------------------------------------
+Output for the problem:-
+
+1) Area of triangle.
+2) Area of quadrilateral.
+3) Value of X- coordinate and Y- coordinate of point n separated by tab or print Out of range if index is not in range.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution as functions and variables are already given in code area.

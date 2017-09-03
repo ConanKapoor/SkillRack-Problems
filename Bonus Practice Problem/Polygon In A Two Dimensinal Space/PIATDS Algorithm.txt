@@ -1,0 +1,26 @@
+ALGORITHM:-
+STEP1 - Form point function to initialize x and y as 0.
+STEP2 - Form get function of point class to get x and y coodinates.
+STEP3 - Overload << operator - 
+                FUNCTIONostream& operator<<(ostream& Output,point p)
+                    DO Output<<p.x<<" "<<p.y<<endl
+                    RETURN Output
+STEP4 - Form what function of outofrange class to print "Out of range".
+STEP5 - Form polygon function to initialize polygon. In the function, do - 
+                SET num_Of_Ver=n
+                SET point* vertices=new point[n]
+STEP6 - Form destructor of polygon function. In the function, do delete(vertices).
+STEP7 - Form get function of polygon class to read vertices. In the function, perform - 
+                SET vertices=new point[num_Of_Ver]
+                FOR LOOP i=0 to i<num_Of_Ver
+                    READ (vertices+i)->x AND (vertices+i)->y
+STEP8 - Overload [] operator - 
+                FUNCTION point& polygon::operator[](int idx)
+                    CHECK IF idx>num_Of_Ver
+                        THROW EXCEPTION outofrange()
+                    RETURN *(vertices+idx)
+STEP9 - Form area function of polygon class to compute area. In the function initialie Area as double.
+STEP10 - Iterate through i=0 to i<num_Of_Ver and perform  
+                        SET Area+=(vertices+i)->x*((vertices+(i+1)%num_Of_Ver)->y)
+                        SET Area-=(vertices+i)->y*((vertices+(i+1)%num_Of_Ver)->x)
+STEP11 - RETURN -1*int(Area<0)+int(Area>0))*Area/2
