@@ -1,0 +1,21 @@
+ALGORITHM:-
+STEP1 - Form get function to read data about cities. In the function, read num_of_Cities. 
+STEP2 - Iterate through i=0 to i<num_Of_Cities and initialize Num_Of_Neighbours as int and Name_Of_City as string and read Name_of_City and Num_Of_Neighbours.
+STEP3 - Iterate through j=0 to j<Num_Of_Neighbours and initialize Name as string and read Name.
+STEP4 - Push back data in city_Connection map - city_Connection[Name_Of_City].push_back(Name).
+STEP5 - Read source and destination.
+STEP6 - Form find_value function of return type bool and return find(ss.begin(),ss.end(),s)==ss.end().
+STEP7 - Form find_Route function of travel class and pushback source in route vector.
+STEP8 - While route.back()!=destn, perform these - 
+                SET bool finish=true
+                SET vector<string> s=city_Connection[route.back()]
+                PERFORM sort(s.begin(),s.end())
+                CHECK IF find(s.begin(),s.end(),destn)!=s.end()
+                    DO route.push_back(destn)
+                    BREAK
+                FOR LOOP i=0 to i<s.size()
+                    CHECK IF find_value(s[i],route)
+                        DO route.push_back(s[i]);
+                        SET finish=false
+                        BREAK
+STEP9 - Form print_Route function of travel class to print the route. In the function, iterate through i=0 to i<route.size() and print route[i].

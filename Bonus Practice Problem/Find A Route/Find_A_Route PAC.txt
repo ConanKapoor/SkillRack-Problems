@@ -1,0 +1,35 @@
+Input for the problem:-
+
+1) Number of cities that are connected to other cities, 'n'.
+2) Name of city1.
+    Number of neighboring cities for city1, 'm'
+    First neighboring city of city1.
+    Second neighboring city of city1
+    ...
+    mth neighboring city of city1
+    ...
+    Name of city n
+    Number of neighboring cities for cityn, 'm'
+    First neighboring city of city n
+    Second neighboring city of city n
+    ...
+    mth neighboring city of city n
+---------------------------------------
+Processing involved:-
+
+- Form get function to read data about cities. In the function, read num_of_Cities. 
+ - Iterate through i=0 to i<num_Of_Cities and read Name_of_City and Num_Of_Neighbours.
+- Iterate through j=0 to j<Num_Of_Neighbours and read Name.
+- Push back data in city_Connection map.
+- Read source and destination.
+- Form find_value function of return type bool and return find(ss.begin(),ss.end(),s)==ss.end().
+- Form find_Route function of travel class and to find the possible routes.
+- Form print_Route function of travel class to print the route.
+------------------------------------------
+Output for the problem:-
+
+Name of cities in the list.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution as functions and variables are already given in code area.

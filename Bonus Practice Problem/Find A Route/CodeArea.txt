@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+#include<string>
+#include<vector>
+#include<map>
+#include<algorithm>
+class travel
+{
+    int num_Of_Cities;
+    map<string,vector<string> > city_Connection;
+    string source;
+    string destn;
+    vector<string> route;
+    public:
+    //In this function form the map that depicts the
+    // the connection of cities,key is the name of the
+    // city and value is a vector of cities that are
+    // connected to the city
+    void get();
+    void find_Route();
+    void print_Route();
+};
+-----------------------
+-----------------------
+int main()
+{
+    travel t;
+    t.get();
+    t.find_Route();
+    t.print_Route();
+}
