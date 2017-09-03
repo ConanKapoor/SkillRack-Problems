@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+#include<string>
+#include<map>
+struct guest
+{
+    int room_No;
+    string name;
+    int friend_Room_No;
+    public:
+    void get();
+};
+class hotel
+{
+    int num_Of_Guest;
+    map<int,guest> stay_Det;
+    //this room number is with jegan
+    int first_Room_No;
+    public:
+    void get();
+    //this function should print
+    //details such as name and room number
+    // of guest to serve coffee
+    void serve_Coffee();
+};
+-------------------------
+-------------------------
+main()
+{
+    hotel h;
+    h.get();
+    h.serve_Coffee();
+}

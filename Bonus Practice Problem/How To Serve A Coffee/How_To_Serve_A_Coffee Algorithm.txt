@@ -1,0 +1,9 @@
+ALGORITHM:-
+STEP1 - Form get function of guest class and input room_No,name and friend_Room_No.
+STEP2 - Form get function of hotel class and input num_of_guest.
+STEP3 - Make object Guest of guest class.
+STEP4 - Iterate through i=0 and i<num_of_Guest and call Guest.get() function and save the data in stay_Det map - stay_Det[Guest.room_No]=Guest.
+STEP5 - Read first_Room_No.
+STEP6 - Form serve_Coffee function of hotel class and initialie current and set it to first_Room_N.
+STEP7 - While current!=-1, print stay_Det[current].name + " " + current.
+STEP8 - SET current=stay_Det[current].friend_Room_No.

@@ -1,0 +1,36 @@
+Input for the problem:-
+
+1) Number of friends.
+2) Room number of guest1.
+    Name of guest1
+    Room number the guest who arrived next to guest1
+    Room number of guest2
+    Name of guest2
+    Room number the guest who arrived next to guest2
+    ....
+    Room number of guest n
+    Name of guestn
+3) -1 ( Last guest doesn't posses any room number)
+4) Room number that Jegan has
+---------------------------------------
+Processing involved:-
+
+- Form get function of guest class and input room_No,name and friend_Room_No.
+- Form get function of hotel class and input num_of_guest.
+- Make object Guest of guest class.
+- Iterate through i=0 and i<num_of_Guest and call Guest.get() function and save the data in stay_Det map.
+- Read first_Room_No.
+- Form serve_Coffee function of hotel class and initialize current and set it to first_Room_N.
+- While current!=-1, print stay_Det[current].name + " " + current.
+- SET current=stay_Det[current].friend_Room_No.
+------------------------------------------
+Output for the problem:-
+
+Name of guest 1 and his Room number separated by tab.
+Name of guest 2 and his Room number separated by tab.
+...
+Name of guest n and his Room number separated by tab.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution as functions and variables are already given in code area.
