@@ -1,0 +1,29 @@
+Input for the problem:-
+
+1) Number of points 'n'
+2) value of X- coordinate of point 1
+    value of Y- coordinate of point 1
+    ...
+    value of X- coordinate of point n
+    value of Y- coordinate of point n
+---------------------------------------
+Processing involved:-
+
+- Overload >> operator.
+- Overload << operator.
+- Overload == operator.
+- Overload > operator.
+- Form sort_Points function of return type void and initialize object swap of class point.
+- Perform bubble sort on points to sort them.
+------------------------------------------
+Output for the problem:-
+
+1) Print 'n' points in sorted order.
+2) value of X- coordinate and Y- coordinate of point1 separated by tab.
+    value of X- coordinate and Y- coordinate of point2 separated by tab.
+    ....
+    value of X- coordinate and Y- coordinate of point n separated by tab.
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution as functions and variables are already given in code area.

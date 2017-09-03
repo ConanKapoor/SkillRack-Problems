@@ -1,0 +1,21 @@
+ALGORITHM:-
+STEP1 - Overload >> operator - 
+            FUNCTION istream& operator>>(istream& Input,point &p)
+                DO Input>>p.x>>p.y
+
+STEP2 - Overload << operator - 
+            FUNCTION ostream& operator<<(ostream& Output,point& p)
+                DO Output<<p.x<<endl<<p.y<<endl
+STEP3 - Overload == operator - 
+            FUNCTION bool point::operator==(point& p)
+                RETURN p.x==x&&p.y==y
+STEP4 - Overload > operator - 
+            FUNCTION bool point::operator>(point& p)
+                CHECK IF (p.x==x)
+                    RETURN y>p.y
+                RETURN x>p.x
+STEP5 - Form sort_Points function of return type void and initialize object swap of class point.
+STEP6 - Iterate through i=0 to i<n and j=i+1 to j<n and check if *(p+j)>*(p+i), If so, perform - 
+                SET swap=*(p+i);
+                SET *(p+i)=*(p+j);
+                SET *(p+j)=swap;
