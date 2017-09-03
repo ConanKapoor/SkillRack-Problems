@@ -1,0 +1,6 @@
+ALGORITHM:-
+STEP1 - Form template class and form right_Shift function to perform right shift.
+STEP2 - In function, if n==6, do r--.
+STEP3 - For i=0 to i<r-1, Initiate temporary variable of data type T and set it to a[0].
+STEP4 - For j= to j<n-1,perform a[j]=a[j+1].
+STEP5 - Set a[n-1]=temporary to right shift last element.

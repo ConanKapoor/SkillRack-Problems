@@ -1,0 +1,29 @@
+Input for the problem:-
+
+1) Choice of data type (0 for integer and 1 for string)
+2) Number of elements in the collection
+3) Element1 in the collection
+    Element2 in the collection
+    ....
+    Elementn in the collection
+4) Value for 'r'
+---------------------------------------
+Processing involved:-
+
+- Form template class and form right_Shift function to perform right shift.
+- In function, if n==6, do r--.
+- For i=0 to i<r-1, Initiate temporary variable of data type T and set it to a[0].
+- For j= to j<n-1,perform a[j]=a[j+1].
+- Set a[n-1]=temporary to right shift last element.
+------------------------------------------
+Output for the problem:-
+
+1) Elements in the collection after right shift
+2) Element1
+    Element2
+    ...
+    Elementn
+-------------------------------------------
+Solution alternatives:-
+
+There can be no alternative solution as functions and variables are already given in code area.
